@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Hub | Choose Your Feed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html" class="top-logo">intel<span class="logo-accent">_brief</span></a>
+
+    <div class="main-container">
+        
+        <div class="hero">
+            <span class="hero-badge">Daily Intelligence Brief</span>
+            <h1>Cut through the noise.<br>Focus on the <span class="highlight-text">Signal.</span></h1>
+            <p>Curated analytical deep-dives for UPSC Aspirants and executive round-ups for everyone else. Choose your domain to stay ahead of the curve.</p>
+        </div>
+
+        <div class="category-grid">
+            <a href="../UPSC Relevant Section/index.html" class="card upsc-card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 4h12"/>
+                        <path d="M6 20h12"/>
+                        <path d="M8 4v16"/>
+                        <path d="M16 4v16"/>
+                        <path d="M12 4v16"/>
+                    </svg>
+                </div>
+
+                <h3>UPSC Relevant</h3>
+                <p>Daily Editorials, GS Mapping, Deep Dives & Practice Questions.</p>
+            </a>
+
+            <!-- Economics -->
+            <a href="../General News/index.html?category=Economics" class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <h3>Economics</h3>
+                <p>Markets, Policy & Global Trade</p>
+            </a>
+
+            <!-- Politics -->
+            <a href="../General News/index.html?category=Politics" class="card">
+                <div class="card-icon">
+                    <!-- Icon: Capitol Building (Governance) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="20" width="20" height="2"/>
+                        <path d="M6 20V8h12v12"/>
+                        <path d="M12 2L6 8h12l-6-6z"/>
+                        <line x1="10" y1="20" x2="10" y2="12"/>
+                        <line x1="14" y1="20" x2="14" y2="12"/>
+                    </svg>
+                </div>
+                <h3>Politics</h3>
+                <p>Governance, Elections & Policy</p>
+            </a>
+
+            <!-- Technology -->
+            <a href="../General News/index.html?category=Technology"  class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                </div>
+                <h3>Technology</h3>
+                <p>AI, Cyber Security & Startups</p>
+            </a>
+
+            <!-- Education -->
+            <a href="../General News/index.html?category=Education"  class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <h3>Education</h3>
+                <p>Academia, Research & Trends</p>
+            </a>
+
+            <!-- Engineering -->
+            <a href="../General News/index.html?category=Engineering"  class="card">
+                <div class="card-icon">
+                    <!-- Icon: Book (Engineering) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                </div>
+                <h3>Engineering</h3>
+                <p>Innovation & Infrastructure</p>
+            </a>
+
+            <!-- Architecture -->
+            <a href="../General News/index.html?category=Architecture"  class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M9 8h1"/><path d="M9 12h1"/><path d="M9 16h1"/><path d="M14 8h1"/><path d="M14 12h1"/><path d="M14 16h1"/><path d="M5 21V7c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v14"/></svg>
+                </div>
+                <h3>Architecture</h3>
+                <p>Design, Urban Planning & Heritage</p>
+            </a>
+
+            <!-- Sports -->
+            <a href="../General News/index.html?category=Sports"  class="card">
+                <div class="card-icon">
+                    <!-- Icon: Trophy -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 21h8"/>
+                        <path d="M12 17v4"/>
+                        <path d="M7 4h10"/>
+                        <path d="M17 4v8a5 5 0 0 1-10 0V4"/>
+                        <path d="M5 9v2a2 2 0 0 0 2 2"/>
+                        <path d="M19 9v2a2 2 0 0 1-2 2"/>
+                    </svg>
+                </div>
+                <h3>Sports</h3>
+                <p>Global Events & Analytics</p>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+</html>
+
