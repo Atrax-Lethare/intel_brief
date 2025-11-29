@@ -1,129 +1,122 @@
         // --- DATA SECTION: DAILY BULLETINS ---
         const newsDB = {
-            // --- PASTE THIS BLOCK IN newsDB['Economics'] ---
             'Economics': {
                 date: 'November 29, 2025',
                 lead: {
-                    headline: "Q2 GDP Surprises Upside at 8.2%",
-                    summary: "India's economic engine roared in the second quarter of 2025-26, registering an 8.2% growth rate against a projected 7.5%. The surge is credited to a manufacturing renaissance and resilient domestic consumption, despite global inflationary pressures.",
-                    link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece"
+                    headline: "Sensex Crosses 85k on Strong GDP Data",
+                    summary: "Benchmark indices hit record highs as India's Q2 GDP growth of 8.2% beat street estimates. Banking and Auto stocks led the rally, fuelled by renewed Foreign Portfolio Investor (FPI) buying and expectations of a rate cut by the RBI in December.",
+                    link: "https://www.moneycontrol.com"
                 },
                 bullets: [
-                    { tag: "Analysis", text: "SBI Research attributes growth to 'GST rationalization' and festival demand.", link: "https://www.livemint.com/market/stock-market-news/india-q2-gdp-live-india-gdp-growth-economic-growth-india-inflation-gst-rate-cut-28-november-2025-11764321645658.html" },
-                    { tag: "Cyclone", text: "Cyclone Ditwah likely to impact coastal agriculture supply chains in Q3.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
-                    { tag: "Forex", text: "HDFC Bank launches 'SmartHub Vyapar 2.0' for MSME digital payments.", link: "https://v.hdfcbank.com/festive-treats-2025/smarthub_vyapaar.html" },
-                    { tag: "Tax", text: "GST Council exempts health insurance premiums from 18% GST.", link: "https://www.sbigeneral.in/blog/general-insurance/general-articles/gst-reforms-2025-health-insurance" },
-                    { tag: "Exports", text: "Electronics exports surge led by Apple's iPhone manufacturing expansion.", link: "https://www.livemint.com" },
-                    { tag: "Insolvency", text: "Manipal Group submits EoI for Byju's insolvency process.", link: "https://www.thehindu.com/news/national/karnataka/manipal-group-submits-eoi-to-participate-in-insolvency-process-ofthink-learn-parent-of-byjus/article70275975.ece" }
+                    { tag: "Growth", text: "Manufacturing sector grows at 11.5%, driving the GDP surge.", link: "https://www.thehindu.com/business" },
+                    { tag: "Inflation", text: "Retail inflation (CPI) dips to 4.5%, within RBI's tolerance band.", link: "https://rbi.org.in" },
+                    { tag: "Trade", text: "Commerce Ministry to unveil new 'E-commerce Export Hubs' policy next week.", link: "https://commerce.gov.in" },
+                    { tag: "Energy", text: "Adani Green announces ₹10,000 cr investment in wind-solar hybrid projects.", link: "https://www.adanigreenenergy.com" },
+                    { tag: "Telecom", text: "TRAI proposes lowering spectrum usage charges to boost 6G research.", link: "https://trai.gov.in" },
+                    { tag: "Startup", text: "Zepto becomes the first quick-commerce startup to turn EBITDA positive.", link: "https://economictimes.indiatimes.com" }
                 ],
-                stat: { label: "Q2 GDP Growth", value: "8.2%", desc: "The highest quarterly growth recorded in the last 6 quarters, driven by manufacturing." }
+                stat: { label: "Q2 GDP", value: "8.2%", desc: "Real GDP growth rate for July-September 2025, beating the RBI estimate of 7.2%." }
             },
-            // --- PASTE THIS BLOCK IN newsDB['Politics'] ---
             'Politics': {
                 date: 'November 29, 2025',
                 lead: {
-                    headline: "Winter Session: HECI & Power Bills on Agenda",
-                    summary: "The Parliament's Winter Session is set for a showdown. The government plans to table the Higher Education Commission of India (HECI) Bill to replace UGC, while the Opposition is mobilizing against the Electricity Amendment Bill, citing federal overreach.",
-                    link: "https://indianexpress.com/article/education/winter-session-parliament-to-take-up-bill-replacing-ugc-aicte-ncte-with-single-regulator-10381204/"
+                    headline: "Winter Session: Opposition Unites on Federalism",
+                    summary: "The I.N.D.I.A bloc has announced a unified strategy to oppose the Electricity Amendment Bill and the proposed HECI Bill in the upcoming Winter Session, terming them as assaults on the federal structure and state autonomy.",
+                    link: "https://sansad.in/ls"
                 },
                 bullets: [
-                    { tag: "Protest", text: "Punjab farmers and engineers protest against Electricity Bill 2025.", link: "https://indianexpress.com/article/explained/everyday-explainers/inside-punjab-protests-against-centres-new-power-law-concerns-about-cherry-picking-consumers-eroding-subsidies-10389175/" },
-                    { tag: "Election", text: "Trinamool delegation meets EC alleges 'deaths due to electoral roll revision'.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
-                    { tag: "Aadhaar", text: "UP Govt clarifies Aadhaar is not valid proof of Date of Birth.", link: "https://indianexpress.com/article/india/express-catch-up-5-stories-you-must-read-today-november-28-10391432/" },
-                    { tag: "Statue", text: "PM Modi unveils 77-ft Lord Ram statue in Goa; emphasizes cultural heritage.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
-                    { tag: "Diplomacy", text: "Russian President Putin to visit India on Dec 4-5 for Annual Summit.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
-                    { tag: "Reshuffle", text: "Major bureaucratic reshuffle: Amit Agrawal appointed Telecom Secretary.", link: "https://egov.eletsonline.com/2025/11/bureaucratic-reshuffle-at-centre-amit-agrawal-made-secretary-telecom/" }
+                    { tag: "Bills", text: "Government lists 18 bills for consideration, including the Digital India Act.", link: "https://prsindia.org" },
+                    { tag: "Election", text: "EC holds all-party meeting to discuss 'Remote Voting Machines' for migrants.", link: "https://eci.gov.in" },
+                    { tag: "Judiciary", text: "President appoints two new judges to the Supreme Court, creating a full bench.", link: "https://doj.gov.in" },
+                    { tag: "Diplomacy", text: "External Affairs Minister to visit Tehran to discuss the North-South Corridor.", link: "https://mea.gov.in" },
+                    { tag: "States", text: "Governor-Government rift widens in Tamil Nadu over pending bills.", link: "https://www.thehindu.com" },
+                    { tag: "Policy", text: "Cabinet approves extension of free foodgrain scheme for another 5 years.", link: "https://pib.gov.in" }
                 ],
-                stat: { label: "Bills Listed", value: "18", desc: "Number of legislative bills listed for introduction and passing in the Winter Session." }
+                stat: { label: "Sitting Days", value: "15", desc: "Total scheduled sittings for the Winter Session of Parliament 2025." }
             },
-            // --- PASTE THIS BLOCK IN newsDB['Technology'] ---
             'Technology': {
                 date: 'November 29, 2025',
                 lead: {
-                    headline: "GCWCN 2025: AI & Quantum Leaps",
-                    summary: "The Global Conference on Wireless, Computing & Networking (GCWCN 2025) in Pune concluded with breakthrough papers on 'Neuromorphic LLM Pipelines' and 'Quantum-Federated Threat Detection,' positioning India as a rising hub for deep-tech research.",
-                    link: "https://timesofindia.indiatimes.com/city/pune/gcwcn-2025-showcases-breakthrough-innovations-across-ai-quantum-computing-iot-healthcare-engineering/articleshow/125554437.cms"
+                    headline: "Deepfake Regulation: Govt to notify IT Rules Amendment",
+                    summary: "The Ministry of Electronics and IT (MeitY) is set to notify amendments to the IT Rules, mandating social media intermediaries to label AI-generated content within 24 hours. Non-compliance could lead to the loss of 'Safe Harbour' protection.",
+                    link: "https://meity.gov.in"
                 },
                 bullets: [
-                    { tag: "Innovation", text: "New 'RAG-driven IoT Sensor Analytics' proposed for predictive maintenance.", link: "https://timesofindia.indiatimes.com/city/pune/gcwcn-2025-showcases-breakthrough-innovations-across-ai-quantum-computing-iot-healthcare-engineering/articleshow/125554437.cms" },
-                    { tag: "HealthTech", text: "AI framework developed for early diagnosis of Neuro-Cardiac disorders.", link: "https://timesofindia.indiatimes.com/city/pune/gcwcn-2025-showcases-breakthrough-innovations-across-ai-quantum-computing-iot-healthcare-engineering/articleshow/125554437.cms" },
-                    { tag: "Cybersec", text: "CERT-In issues alerts for multiple Android malware strains including 'Daam'.", link: "https://www.csk.gov.in/alerts.html" },
-                    { tag: "Research", text: "1312 papers submitted globally to GCWCN, highlighting intense R&D interest.", link: "https://timesofindia.indiatimes.com/city/pune/gcwcn-2025-showcases-breakthrough-innovations-across-ai-quantum-computing-iot-healthcare-engineering/articleshow/125554437.cms" },
-                    { tag: "Hardware", text: "Neuromorphic computing gains traction for energy-efficient AI.", link: "https://timesofindia.indiatimes.com/city/pune/gcwcn-2025-showcases-breakthrough-innovations-across-ai-quantum-computing-iot-healthcare-engineering/articleshow/125554437.cms" },
-                    { tag: "Space", text: "ISRO develops new semi-cryogenic engine for Next-Gen Launch Vehicle.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" }
+                    { tag: "AI", text: "Google DeepMind unveils 'Gemini-3', claiming 50% faster reasoning than GPT-5.", link: "https://blog.google" },
+                    { tag: "Cybersec", text: "CERT-In warns of 'Akira' ransomware targeting Indian healthcare nodes.", link: "https://cert-in.org.in" },
+                    { tag: "Space", text: "ISRO announces 'Bharatiya Antariksh Station' module launch timeline.", link: "https://isro.gov.in" },
+                    { tag: "Hardware", text: "Tata Electronics begins commercial production of semiconductor chips in Assam.", link: "https://www.tata.com" },
+                    { tag: "Crypto", text: "RBI Governor reiterates warning on crypto risks despite global rally.", link: "https://rbi.org.in" },
+                    { tag: "App", text: "WhatsApp launches 'Secret Code' feature for locked chats globally.", link: "https://blog.whatsapp.com" }
                 ],
-                stat: { label: "Paper Submissions", value: "1,312", desc: "Total research papers submitted to GCWCN 2025, reflecting a massive spike in academic output." }
+                stat: { label: "Internet Users", value: "950M", desc: "Projected active internet users in India by the end of 2025, per IAMAI report." }
             },
-            // --- PASTE THIS BLOCK IN newsDB['Education'] ---
             'Education': {
                 date: 'November 29, 2025',
                 lead: {
-                    headline: "End of an Era: UGC to be Replaced by HECI",
-                    summary: "The Ministry of Education is set to introduce the Higher Education Commission of India (HECI) Bill. This single regulator will subsume UGC, AICTE, and NCTE, aiming to streamline accreditation and standards in line with NEP 2020.",
-                    link: "https://www.indiatoday.in/education-today/news/story/ugc-aicte-set-to-be-replaced-as-single-higher-education-regulator-moves-forward-2824637-2025-11-23"
+                    headline: "HECI to Replace UGC: What Changes for Students?",
+                    summary: "The proposed Higher Education Commission of India (HECI) will introduce a single-window system for higher education regulation. Key changes include a focus on learning outcomes over infrastructure norms and the permission for foreign universities to repatriate funds.",
+                    link: "https://education.gov.in"
                 },
                 bullets: [
-                    { tag: "Protest", text: "Indian Statistical Institute (ISI) students protest against new governance bill.", link: "https://indianexpress.com/article/explained/what-is-the-indian-statistical-institute-bill-2025-and-why-there-are-protests-against-it-10391211/" },
-                    { tag: "Policy", text: "HECI will not regulate Medical and Legal education streams.", link: "https://timesofindia.indiatimes.com/education/news/parliament-expected-to-introduce-heci-bill-aiming-to-unify-indias-higher-education-how-it-will-impact-institutions/articleshow/125506626.cms" },
-                    { tag: "Funding", text: "Financial grant powers likely to remain with the Ministry, not HECI.", link: "https://indianexpress.com/article/education/winter-session-parliament-to-take-up-bill-replacing-ugc-aicte-ncte-with-single-regulator-10381204/" },
-                    { tag: "Ranking", text: "IISc Bangalore ranks 1st in University category in NIRF 2025.", link: "https://engineering.careers360.com/articles/iisc-bangalore-nirf-ranking" },
-                    { tag: "Skill", text: "CBSE introduces 'Design Thinking' and 'AI' as skill subjects for Class 6-12.", link: "https://www.cbse.gov.in/cbsenew/documents/01_Circular_2025_SKILL_10012025.pdf" },
-                    { tag: "Insolvency", text: "Manipal Group eyes acquisition of Aakash via Byju's insolvency process.", link: "https://www.thehindu.com/news/national/karnataka/manipal-group-submits-eoi-to-participate-in-insolvency-process-ofthink-learn-parent-of-byjus/article70275975.ece" }
+                    { tag: "Exams", text: "JEE Main 2026 registration sees record 14 lakh applicants.", link: "https://jeemain.nta.nic.in" },
+                    { tag: "School", text: "NCERT releases new 'Bridge Course' modules for students transitioning to NEP.", link: "https://ncert.nic.in" },
+                    { tag: "Global", text: "Deakin University GIFT City campus receives 5000+ applications for 2026 batch.", link: "https://www.deakin.edu.au" },
+                    { tag: "Medical", text: "NMC announces common counselling for NEET PG to reduce seat wastage.", link: "https://www.nmc.org.in" },
+                    { tag: "Skill", text: "Skill India partners with Toyota for EV mechanic training programs.", link: "https://msde.gov.in" },
+                    { tag: "Research", text: "Government hikes PhD fellowship stipend by 20% effective immediately.", link: "https://dst.gov.in" }
                 ],
-                stat: { label: "Regulators Merged", value: "3", desc: "UGC, AICTE, and NCTE will be merged into one body: HECI." }
+                stat: { label: "GER Target", value: "50%", desc: "The target Gross Enrolment Ratio in higher education by 2035 under NEP 2020." }
             },
-            // --- PASTE THIS BLOCK IN newsDB['Engineering'] ---
             'Engineering': {
                 date: 'November 29, 2025',
                 lead: {
-                    headline: "Grid Modernization: The Smart Meter Push",
-                    summary: "The Electricity Amendment Bill 2025 pushes for the deployment of smart meters and competition in power distribution. While engineering firms see this as a massive upgrade opportunity, state utilities are resisting the operational overhaul.",
-                    link: "https://indianexpress.com/article/explained/everyday-explainers/inside-punjab-protests-against-centres-new-power-law-concerns-about-cherry-picking-consumers-eroding-subsidies-10389175/"
+                    headline: "Chenab Bridge: World's Highest Rail Bridge Operational",
+                    summary: "Indian Railways has officially commenced commercial operations on the Chenab Bridge in J&K. Standing 359 meters above the river bed, it is an engineering marvel that connects the Kashmir valley to the rest of the Indian railway network.",
+                    link: "https://indianrailways.gov.in"
                 },
                 bullets: [
-                    { tag: "Research", text: "IIT Madras develops 'Graphene coating' to protect underwater glass structures.", link: "https://www.iitd.ac.in/" },
-                    { tag: "Civil", text: "Chenab Bridge, world's highest rail bridge, opens for commercial traffic.", link: "https://en.wikipedia.org/wiki/Chenab_Rail_Bridge" },
-                    { tag: "Robotics", text: "Genrobotics unveils 'Bandicoot 3.0' for automated sewer cleaning.", link: "https://sanitation.genrobotics.com/" },
-                    { tag: "Energy", text: "Adani Green bags transmission project for 2.5 GW Khavda renewable zone.", link: "https://www.mercomindia.com/adani-energy-bags-transmission-project-to-evacuate-2-5-gw-of-renewable-energy" },
-                    { tag: "Space", text: "ISRO tests 2000kN semi-cryogenic engine for future heavy-lift launches.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" },
-                    { tag: "Tunnel", text: "Dholera SIR operationalizes India's first dedicated utility tunnel network.", link: "https://www.dholeraprime.com/ahmedabad-dholera-expressway-november-2025-work-progress-update/" }
+                    { tag: "Metro", text: "Bangalore Metro Yellow Line (Driverless) receives final safety clearance.", link: "https://bmrc.co.in" },
+                    { tag: "Tunnel", text: "Zojila Tunnel breakthrough achieved; set to be Asia's longest bi-directional tunnel.", link: "https://nhidcl.com" },
+                    { tag: "Auto", text: "Mahindra opens new EV battery testing facility in Tamil Nadu.", link: "https://mahindra.com" },
+                    { tag: "Energy", text: "BHEL secures order for thermal power plant expansion in Chhattisgarh.", link: "https://bhel.com" },
+                    { tag: "Material", text: "DRDO develops self-healing composite material for aerospace applications.", link: "https://drdo.gov.in" },
+                    { tag: "Water", text: "Polavaram project completes spillway installation ahead of monsoon.", link: "https://irrigationap.cgg.gov.in" }
                 ],
-                stat: { label: "Dist. Losses", value: "₹6.9L Cr", desc: "Accumulated losses of power distribution companies, prompting the urgent engineering and policy overhaul." }
+                stat: { label: "Steel Used", value: "28,000 MT", desc: "Amount of steel used in the Chenab Bridge, capable of withstanding blast and seismic activity." }
             },
-            // --- PASTE THIS BLOCK IN newsDB['Architecture'] ---
             'Architecture': {
                 date: 'November 29, 2025',
                 lead: {
-                    headline: "Monumental Design: 77-ft Lord Ram Statue Unveiled",
-                    summary: "Prime Minister Modi unveiled a massive 77-foot bronze statue of Lord Ram in Goa. The structure, designed to withstand coastal winds, blends traditional iconography with modern structural stability, marking a new addition to India's 'Statue Diplomacy'.",
-                    link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece"
+                    headline: "Pritzker Prize 2025: Focus on Social Housing",
+                    summary: "The 2025 Pritzker Architecture Prize has been awarded to a collective focused on sustainable social housing in Latin America. The jury highlighted the shift away from 'Starchitecture' towards adaptive reuse and community-centric design.",
+                    link: "https://www.pritzkerprize.com"
                 },
                 bullets: [
-                    { tag: "Event", text: "ACETECH Expo 2025 showcases latest building materials in Mumbai.", link: "https://acetechexpo.com/" },
-                    { tag: "Urban", text: "Bengaluru proposes '15-minute city' plan to decongest traffic hotspots.", link: "https://timesofindia.indiatimes.com/city/bengaluru/building-bengaluru-2-0-city-bets-whopping-rs-1-5-lakh-crore-on-its-infrastructure/articleshow/125603009.cms" },
-                    { tag: "Heritage", text: "Odisha unveils light and sound show at Konark Sun Temple.", link: "https://www.prameyanews.com/odisha-unveils-light-and-sound-show-at-konark-sun-temple" },
-                    { tag: "Airport", text: "AAI to monitor Chennai Airport Terminal 3 project live to meet 2026 deadline.", link: "https://timesofindia.indiatimes.com/city/chennai/aai-to-monitor-terminal-3-project/articleshow/124882491.cms" },
-                    { tag: "Expo", text: "Saifee Burhani Expo connects architects with smart home innovators.", link: "https://globy.com/events-calendar/listing/country/india/topic/architecture" },
-                    { tag: "Design", text: "IIT Bombay renaming proposal sparks debate on institutional identity.", link: "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-27-november-2025-constitution-day-iit-bombay-renaming-proposed-protests-at-vit-over-jaundice-outbreak-govt-to-revise-sc-st-scholarship-rules-10387703/" }
+                    { tag: "Urban", text: "New Delhi's Central Vista Redevelopment enters final landscaping phase.", link: "https://centralvista.gov.in" },
+                    { tag: "Heritage", text: "ASI completes restoration of the Hoysala Temples in Karnataka.", link: "https://asi.nic.in" },
+                    { tag: "Green", text: "Surat Diamond Bourse creates benchmark for solar-passive office design.", link: "https://suratdiamondbourse.in" },
+                    { tag: "Award", text: "Indian architect wins Aga Khan Award for rural school project in Bengal.", link: "https://theakdn.org" },
+                    { tag: "Tech", text: "3D Printed Post Office in Bengaluru sets record for construction speed.", link: "https://www.larsentoubro.com" },
+                    { tag: "Design", text: "Minimalist 'Japandi' style dominates Interior Design Week 2025.", link: "https://www.archdaily.com" }
                 ],
-                stat: { label: "Exhibitors", value: "4,095+", desc: "Number of brands showcasing at ACETECH 2025, reflecting the boom in the construction sector." }
+                stat: { label: "Net Zero", value: "2070", desc: "India's target year for Net Zero emissions, driving a massive shift in building codes (ECBC)." }
             },
-            // --- PASTE THIS BLOCK IN newsDB['Sports'] ---
             'Sports': {
                 date: 'November 29, 2025',
                 lead: {
-                    headline: "U-19 Asia Cup: Ayush Mhatre to Lead India",
-                    summary: "The junior selection committee has retained Ayush Mhatre as captain for the upcoming U-19 Asia Cup in Dubai. All eyes will be on 13-year-old sensation Vaibhav Sooryavanshi, who has been fast-tracked into the squad after impressive domestic performances.",
-                    link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece"
+                    headline: "India Wins T20 Series Against Australia",
+                    summary: "A young Indian side led by Suryakumar Yadav clinched the T20 series against Australia with a thrilling victory in the 4th match. Rinku Singh's finishing and Axar Patel's spin web were the highlights, solidifying India's bench strength ahead of the World Cup.",
+                    link: "https://bcci.tv"
                 },
                 bullets: [
-                    { tag: "Hockey", text: "Swiss Hockey coach praises Indian junior team's 'new confidence'.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
-                    { tag: "F1", text: "Max Verstappen wins Las Vegas GP; Norris disqualified for skid block wear.", link: "https://www.theguardian.com/sport/2025/nov/23/max-verstappen-wins-f1-las-vegas-gp-lando-norris-second" },
-                    { tag: "Chess", text: "World Champion Gukesh D suffers shock defeat in FIDE World Cup.", link: "https://www.indiatoday.in/sports/other-sports/story/fide-world-cup-2025-gukesh-knocked-out-third-round-frederik-svane-upset-2815932-2025-11-08" },
-                    { tag: "Tourism", text: "Tourists rescued from 'Sky Dining' adventure sport facility in Munnar.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
-                    { tag: "Cricket", text: "BCCI retains Ayush Mhatre as U-19 captain for Asia Cup.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
-                    { tag: "Global", text: "Imran Khan's son seeks international help citing father's safety.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" }
+                    { tag: "Cricket", text: "Hardik Pandya returns to training at NCA after ankle injury rehab.", link: "https://bcci.tv" },
+                    { tag: "Football", text: "Kerala Blasters top ISL table with a 3-0 win over Mohun Bagan.", link: "https://www.indiansuperleague.com" },
+                    { tag: "Tennis", text: "Sumit Nagal breaks into ATP Top 80 after Challenger win in Finland.", link: "https://atptour.com" },
+                    { tag: "Chess", text: "Praggnanandhaa qualifies for Candidates 2026 after finishing 2nd in Grand Swiss.", link: "https://fide.com" },
+                    { tag: "Olympics", text: "Neeraj Chopra confirms participation in Diamond League opener.", link: "https://olympics.com" },
+                    { tag: "Badminton", text: "PV Sindhu appoints new South Korean coach to arrest slump in form.", link: "https://bwfbadminton.com" }
                 ],
-                stat: { label: "Captain Age", value: "19", desc: "Ayush Mhatre, leading the next generation of Indian cricketers in the continental championship." }
+                stat: { label: "Strike Rate", value: "195.4", desc: "Rinku Singh's batting strike rate in the death overs (16-20) this series." }
             }
         };
