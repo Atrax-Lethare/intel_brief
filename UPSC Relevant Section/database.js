@@ -1,92 +1,93 @@
         // --- DATA SECTION ---
 const articlesDB = {
+        
     '2025-11-29': {
                 dateLabel: 'November 29, 2025',
                 articles: [
                     {
-                        title: "Q2 GDP Surges to 8.2%: Implications for Inclusive Growth",
+                        title: "Reviving Textiles: The Tex-RAMPS Scheme",
                         source: "The Hindu",
                         paper: "GS Paper 3",
-                        topic: "Indian Economy & Growth",
-                        originalLink: "https://www.thehindu.com/business/Economy/india-gdp-growth-q2-2025/article67890123.ece",
-                        context: "India's real GDP growth for Q2 (July-Sept) 2025-26 clocked in at 8.2%, surpassing the previous year's 5.6%, driven by manufacturing and robust consumption, though agriculture remains a concern.",
+                        topic: "Economy & Infrastructure",
+                        originalLink: "https://www.thehindu.com/business/Industry/govt-approves-tex-ramps-scheme/article67584932.ece",
+                        context: "The Cabinet has approved the 'Tex-RAMPS' scheme with an outlay of ₹305 crore to modernize the textile sector and boost technical textiles.",
                         keyPoints: [
-                            "<strong>Sectoral Push:</strong> Manufacturing and construction sectors showed double-digit growth, signalling a revival in private capex.",
-                            "<strong>Base Effect:</strong> A favorable statistical base from last year's lower growth contributed to the high figure.",
-                            "<strong>Consumption Story:</strong> Private Final Consumption Expenditure (PFCE) has picked up, aided by easing inflation."
+                            "<strong>Innovation Focus:</strong> Aimed at creating a national ecosystem for R&D in technical textiles and smart fabrics.",
+                            "<strong>Data Integration:</strong> Implementation of the Integrated Textiles Statistical System (ITSS) for real-time monitoring.",
+                            "<strong>Competitiveness:</strong> targeted at bridging the technology gap with competitors like China and Vietnam."
                         ],
-                        wayForward: ["Sustain Capex push in infrastructure.", "Monitor food inflation (CPI) to prevent dampening of rural demand."],
-                        fodder: { stat: "8.2% Growth Rate in Q2.", keyword: "V-shaped Recovery" },
-                        question: "Analyze the drivers of India's Q2 GDP growth. Is this growth trajectory sustainable amidst global headwinds and domestic agricultural distress?",
-                        deepDive: `<h3>1. The Data Points</h3><p>The NSO data shows that the 8.2% growth is significantly higher than the RBI's projection. This suggests that the Indian economy has decoupled from the slowing global trends seen in the Eurozone and China.</p><h3>2. Concerns</h3><p>Despite the headline number, <strong>agricultural growth</strong> remains tepid due to erratic monsoons (Cyclone Ditwah impact). Uneven K-shaped recovery in consumption remains a structural bottleneck.</p>`
+                        wayForward: ["Accelerate adoption of high-end machinery.", "Focus on 'Farm to Fashion' value chain integration."],
+                        fodder: { stat: "India is the 6th largest textile exporter.", keyword: "Technical Textiles" },
+                        question: "Critically analyze the objectives and potential impact of the Tex-RAMPS scheme in addressing the structural challenges of the Indian textile sector.",
+                        deepDive: `<h3>1. Why Tex-RAMPS?</h3><p>The textile sector is the second-largest employer after agriculture but suffers from obsolete technology. Tex-RAMPS moves beyond subsidies to focus on <strong>innovation and data</strong>. It aims to shift India from 'commodity textiles' (cotton yarn) to 'value-added textiles' (technical fabrics used in medical and defense).</p>`
                     },
                     {
-                        title: "HECI Bill: Unifying Higher Education Regulation",
+                        title: "Regulating User Content: Free Speech vs. Harm",
                         source: "The Indian Express",
                         paper: "GS Paper 2",
-                        topic: "Education & Governance",
-                        originalLink: "https://indianexpress.com/article/education/ugc-aicte-replacement-heci-bill-explained-9012345/",
-                        context: "The government is set to table the Higher Education Commission of India (HECI) Bill in the Winter Session, replacing UGC, AICTE, and NCTE with a single body as per NEP 2020.",
+                        topic: "Governance & Polity",
+                        originalLink: "https://indianexpress.com/article/india/sc-calls-for-framework-on-online-content-9045621/",
+                        context: "The Supreme Court has urged the government to frame a robust mechanism to regulate harmful User-Generated Content (UGC) on social media.",
                         keyPoints: [
-                            "<strong>Unification:</strong> HECI will supersede existing fragmented regulators, streamlining norms for colleges and universities.",
-                            "<strong>Four Verticals:</strong> The structure includes separate verticals for Regulation, Accreditation, Grants, and Standards.",
-                            "<strong>Financial Autonomy:</strong> Unlike UGC, HECI may not have grant-giving powers; funding might stay with the Ministry."
+                            "<strong>The Conflict:</strong> Balancing Article 19(1)(a) (Free Speech) with the state's duty to protect citizens from cyber-harm.",
+                            "<strong>Preventive vs. Punitive:</strong> The debate is shifting from 'taking down' content to 'preventing' upload, which risks censorship.",
+                            "<strong>Intermediary Liability:</strong> Platforms may lose 'Safe Harbour' protection if they fail to act on harmful content."
                         ],
-                        wayForward: ["Ensure academic autonomy is not compromised.", "Robust grievance redressal mechanism for universities."],
-                        fodder: { act: "National Education Policy (NEP) 2020", body: "HECI (Higher Education Commission of India)" },
-                        question: "The HECI Bill aims to transform higher education regulation in India. Discuss its potential to improve quality and the concerns regarding centralization.",
-                        deepDive: `<h3>1. Farewell to UGC</h3><p>The University Grants Commission (UGC) was created in 1956. Critics argue it became an 'Inspector Raj' focusing more on bureaucratic approvals than academic quality. HECI aims to be a 'light but tight' regulator.</p><h3>2. The Exclusion</h3><p>Medical and Legal education will remain outside HECI's ambit, continuing under the NMC and BCI respectively, preserving their specialized nature.</p>`
+                        wayForward: ["Define 'harmful content' precisely to avoid ambiguity.", "Adopt a 'Co-regulatory' model involving platforms and civil society."],
+                        fodder: { case: "Shreya Singhal vs. Union of India", article: "Article 19(2) (Reasonable Restrictions)" },
+                        question: "The regulation of online User-Generated Content presents a friction between constitutional free speech and the state's ethical obligation. Discuss.",
+                        deepDive: `<h3>1. The 'Chilling Effect'</h3><p>Critics argue that strict preventive filtering algorithms will lead to a 'chilling effect' where legitimate speech is suppressed by automated bots to avoid liability. <br><h3>2. Global Standards</h3><p>India is looking at the EU's <strong>Digital Services Act (DSA)</strong> as a template, which imposes heavy fines on platforms for failing to police illegal content.</p>`
                     },
                     {
-                        title: "Urban Pollution: The 10-Year Failure of Clean Air Targets",
+                        title: "Air Pollution: A Governance Failure, Not Just Science",
+                        source: "The Hindu Editorial",
+                        paper: "GS Paper 3",
+                        topic: "Environment",
+                        originalLink: "https://www.thehindu.com/opinion/editorial/clearing-the-air-governance-deficit/article67592011.ece",
+                        context: "Analysis shows that India's pollution crisis is perpetuated by fragmented governance and a lack of coordination between Centre and States.",
+                        keyPoints: [
+                            "<strong>Fragmented Powers:</strong> Multiple bodies (CPCB, SPCBs, CAQM) often work in silos with overlapping jurisdictions.",
+                            "<strong>The 'Western Trap':</strong> Copying Euro norms without adapting to local dust and biomass burning realities.",
+                            "<strong>Short-termism:</strong> Reliance on 'odd-even' and 'smog towers' instead of long-term public transport overhaul."
+                        ],
+                        wayForward: ["Unified 'Airshed' Management Authority.", "Legal mandate for inter-state cooperation."],
+                        fodder: { concept: "Airshed Management", fact: "India hosts 9 of the 10 most polluted cities." },
+                        question: "The air pollution crisis in India is less a scientific problem and more a challenge of governance design. Analyze.",
+                        deepDive: `<h3>1. The CAQM Failure</h3><p>The Commission for Air Quality Management (CAQM) was formed to coordinate between Delhi, Punjab, and Haryana. However, it lacks political teeth to penalize states for farm fires, rendering it a 'paper tiger'. Effective pollution control requires a <strong>federal consensus</strong> similar to the GST Council.</p>`
+                    },
+                    {
+                        title: "Genome-Edited Crops: The Next Green Revolution?",
                         source: "The Indian Express",
                         paper: "GS Paper 3",
-                        topic: "Environment & Pollution",
-                        originalLink: "https://indianexpress.com/article/cities/delhi/delhi-pollution-aqi-safe-limit-report-9876543/",
-                        context: "A Climate Trends analysis reveals that no major Indian city recorded 'safe' air quality levels consistently between 2015 and 2025, highlighting systemic policy gaps.",
+                        topic: "Science & Technology",
+                        originalLink: "https://indianexpress.com/article/explained/genome-editing-vs-gm-crops-explained-9048123/",
+                        context: "India is aggressively pushing for Genome-Edited (GE) crops (SDN 1 & 2) to ensure food security, distinguishing them from traditional GM crops.",
                         keyPoints: [
-                            "<strong>Delhi's Plight:</strong> The capital remained the most polluted, with AQI exceeding 250 frequently.",
-                            "<strong>Beyond Winter:</strong> Pollution is no longer just a winter phenomenon; vehicular emissions keep levels high year-round.",
-                            "<strong>Policy Gap:</strong> Despite NCAP, cities like Lucknow and Varanasi still struggle with particulate matter control."
+                            "<strong>GE vs. GM:</strong> GE involves 'editing' existing genes (CRISPR), whereas GM involves introducing 'foreign' genes.",
+                            "<strong>Regulatory Ease:</strong> GE crops (SDN 1/2) are exempted from stringent GM regulations, allowing faster commercial release.",
+                            "<strong>Climate Resilience:</strong> Focus is on developing drought-resistant and nutrient-fortified varieties."
                         ],
-                        wayForward: ["Shift to 'Airshed' based governance.", "Accelerate EV adoption in public transport."],
-                        fodder: { data: "Zero cities met safe limits in 10 years.", term: "Particulate Matter (PM 2.5)" },
-                        question: "Critically evaluate the performance of the National Clean Air Programme (NCAP). Why have Indian cities failed to achieve safe air quality standards?",
-                        deepDive: `<h3>1. The Report Findings</h3><p>The study analyzed AQI data from 11 cities including Bengaluru and Mumbai. Even coastal cities, usually aided by sea breeze, showed deteriorating air quality due to construction dust and traffic.</p><h3>2. Meteorological Factors</h3><p>The lack of western disturbances and rain in late 2025 exacerbated the pollution levels, trapping pollutants closer to the ground (Temperature Inversion).</p>`
+                        wayForward: ["Public awareness campaigns to dispel safety fears.", "Strong IPR framework to encourage private R&D."],
+                        fodder: { tech: "CRISPR-Cas9", term: "Biofortification" },
+                        question: "Differentiate between Genetically Modified (GM) and Genome-Edited (GE) crops. How can GE technology address climate change challenges in agriculture?",
+                        deepDive: `<h3>1. Why the Shift?</h3><p>Traditional GM crops (like Bt Brinjal) faced immense public opposition and regulatory paralysis. GE crops mimic 'natural mutation' and are safer. <br><h3>2. The Opportunity</h3><p>With climate change causing erratic monsoons, India needs crops that can survive heat stress. GE technology allows scientists to 'switch on' dormant stress-tolerance genes in rice and wheat.</p>`
                     },
                     {
-                        title: "The Electricity Amendment Bill 2025: Reform vs. Federalism",
-                        source: "The Indian Express",
-                        paper: "GS Paper 2 & 3",
-                        topic: "Federalism & Infrastructure",
-                        originalLink: "https://indianexpress.com/article/india/electricity-amendment-bill-protests-explained-8765432/",
-                        context: "Farmers and power engineers in Punjab are protesting the new Electricity Amendment Bill, fearing privatization, cherry-picking of consumers, and loss of cross-subsidies.",
-                        keyPoints: [
-                            "<strong>De-licensing Distribution:</strong> The Bill allows multiple private players to supply electricity in the same area (like telecom).",
-                            "<strong>Cherry-Picking Fear:</strong> State utilities fear private players will take profitable commercial consumers, leaving loss-making rural areas to the state.",
-                            "<strong>Federal Issue:</strong> Electricity is a concurrent subject; states view this as central encroachment."
-                        ],
-                        wayForward: ["Consultative approach with States.", "Direct Benefit Transfer (DBT) for subsidies instead of cross-subsidy."],
-                        fodder: { keyword: "Cross-Subsidy", list: "Concurrent List (Entry 38)" },
-                        question: "Discuss the contentious provisions of the Electricity Amendment Bill 2025. How does it impact the federal structure of power distribution?",
-                        deepDive: `<h3>1. Why the Reform?</h3><p>DISCOMs (Distribution Companies) across India are bleeding money (losses > ₹6 lakh crore). The Centre argues that competition will improve efficiency and reduce losses.</p><h3>2. The Protesters' View</h3><p>Farmers fear that 'Direct Benefit Transfer' will eventually lead to the end of free power for agriculture. Engineers fear privatization of state assets at throwaway prices.</p>`
-                    },
-                    {
-                        title: "Army vs. Individual Conscience: The Kamalesan Case",
-                        source: "The Hindu Editorial",
+                        title: "The Kamalesan Case: Conscience vs. Uniform",
+                        source: "Live Law",
                         paper: "GS Paper 4",
-                        topic: "Ethics in Public Administration",
-                        originalLink: "https://www.thehindu.com/opinion/editorial/army-discipline-vs-religious-freedom-kamalesan-case/article56789012.ece",
-                        context: "The dismissal of Lt. Kamalesan for refusing to enter a regimental temple due to personal religious beliefs highlights the clash between discipline and individual rights.",
+                        topic: "Ethics in Public Service",
+                        originalLink: "https://www.livelaw.in/top-stories/armed-forces-discipline-religious-freedom-kamalesan-case-243561",
+                        context: "A military tribunal upheld the dismissal of an officer who refused to follow dress/conduct codes citing religious conscience, sparking ethical debate.",
                         keyPoints: [
-                            "<strong>Institutional Cohesion:</strong> The Army functions on 'Sarva Dharma Sthal' (secular unity). Refusal to participate threatens unit cohesion.",
-                            "<strong>Constitutional Angle:</strong> Article 33 allows Parliament to restrict fundamental rights (like religious freedom) for armed forces.",
-                            "<strong>Ethical Dilemma:</strong> Duty to the uniform vs. Duty to one's conscience."
+                            "<strong>The Conflict:</strong> Article 25 (Religious Freedom) vs. Military Discipline and Secular Uniformity.",
+                            "<strong>Esprit de Corps:</strong> The armed forces rely on total cohesion; individualism is often seen as a threat to operational unity.",
+                            "<strong>Substance over Form:</strong> Could a minor accommodation have been made without breaking the chain of command?"
                         ],
-                        wayForward: ["Sensitization of command structure.", "Balancing inclusivity with strict discipline."],
-                        fodder: { article: "Article 33", ethic: "Esprit de Corps" },
-                        question: "Analyze the ethical conflict between 'Individual Conscience' and 'Organizational Discipline' in the context of the armed forces.",
-                        deepDive: `<h3>1. The Context</h3><p>Indian Army regiments often maintain a multi-faith prayer hall. Officers are expected to attend all functions to build trust with troops. The court ruled that refusing a lawful command to attend such an event constitutes indiscipline.</p><h3>2. Legal Precedent</h3><p>The judiciary has consistently held that military discipline takes precedence over individual liberties, as the efficiency of the armed forces is paramount for national security.</p>`
+                        wayForward: ["Review dress codes for reasonable accommodation.", "Sensitivity training for command structures."],
+                        fodder: { principle: "Substance over Form", value: "Organizational Integrity" },
+                        question: "The need for uniformity in the Armed Forces often clashes with individual conscience. Discuss the ethical dilemma this presents.",
+                        deepDive: `<h3>1. The Ethical Framework</h3><p>In public administration, <strong>Deontology</strong> (Duty) often supersedes <strong>Individual Rights</strong> when national security is involved. The soldier voluntarily accepts restrictions on rights (Article 33) when donning the uniform. However, ethical leadership requires distinguishing between 'insubordination' and a 'crisis of conscience'.</p>`
                     }
                 ]
             },
@@ -341,3 +342,4 @@ const articlesDB = {
             }
 };
         
+
