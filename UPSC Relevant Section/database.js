@@ -1,5 +1,96 @@
         // --- DATA SECTION ---
 const articlesDB = {
+        // --- PASTE THIS BLOCK AT THE TOP OF articlesDB in upsc_blog.html ---
+            '2025-11-30': {
+                dateLabel: 'November 30, 2025',
+                articles: [
+                    {
+                        title: "State PSC Reforms: Addressing Governance Bottlenecks",
+                        source: "The Hindu / PMF IAS",
+                        paper: "GS Paper 2",
+                        topic: "Constitutional Bodies",
+                        originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        context: "Frequent paper leaks and litigation in State Public Service Commissions (SPSCs) like Telangana and Bihar have highlighted the urgent need for institutional reform to ensure merit-based recruitment.",
+                        keyPoints: [
+                            "<strong>Institutional Decay:</strong> Political patronage in appointing SPSC members has eroded autonomy and quality.",
+                            "<strong>Governance Deficit:</strong> Delays in recruitment lead to chronic vacancies in frontline administration (health, police).",
+                            "<strong>Constitutional Gap:</strong> The 41st Amendment raised retirement age to 62, but lacks strict qualification norms for members."
+                        ],
+                        wayForward: ["Establish a dedicated State Personnel Ministry.", "Amend rules to fix minimum academic qualifications for SPSC members."],
+                        fodder: { article: "Article 315-323", report: "2nd ARC (Administrative Reforms Commission)" },
+                        question: "State Public Service Commissions are the pillars of state administration. Discuss the structural challenges they face and suggest reforms to restore their credibility.",
+                        deepDive: `<h3>1. The Core Issue</h3><p>Unlike the UPSC, which has maintained relative integrity, SPSCs are often staffed by political appointees rather than eminent academicians or administrators. This leads to a cycle of corruption and litigation. <br><h3>2. The Solution</h3><p>The <strong>Hota Committee (2004)</strong> recommended that members of SPSCs should be appointed in consultation with the UPSC Chairman to ensure neutrality.</p>`
+                    },
+                    {
+                        title: "Methane Hotspots: India's Climate Blind Spot",
+                        source: "The Indian Express",
+                        paper: "GS Paper 3",
+                        topic: "Environment & Climate Change",
+                        originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        context: "A UNEP report identifies India as a major methane hotspot, yet methane reduction targets were notably absent from India's recent COP30 statement.",
+                        keyPoints: [
+                            "<strong>The Source:</strong> Agriculture (paddy cultivation) and livestock are the primary sources of methane in India, unlike the West where it is oil & gas.",
+                            "<strong>Policy Dilemma:</strong> Reducing agricultural methane conflicts with food security goals, making it a sensitive political issue.",
+                            "<strong>The Risk:</strong> Methane is 80x more potent than CO2 in the short term, accelerating immediate warming."
+                        ],
+                        wayForward: ["Promote 'System of Rice Intensification' (SRI) to reduce water usage.", "Incentivize biogas plants for livestock waste."],
+                        fodder: { gas: "Methane (CH4)", report: "Global Methane Pledge (India is not a signatory)" },
+                        question: "Why did India abstain from the Global Methane Pledge? Analyze the challenges in reducing methane emissions while maintaining food security.",
+                        deepDive: `<h3>1. Why Methane Matters</h3><p>Methane has a short lifespan (12 years) but high heat-trapping potential. Cutting it gives the fastest result in slowing global warming. <br><h3>2. India's Stance</h3><p>India argues that its 'survival emissions' (agriculture) cannot be equated with the 'luxury emissions' (oil/gas leaks) of the West. Hence, it focuses on CO2 reduction instead.</p>`
+                    },
+                    {
+                        title: "Cervical Cancer: The Silent Killer",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "Health & Social Justice",
+                        originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        context: "WHO and UN warnings highlight that South-East Asia accounts for 25% of global cervical cancer deaths, with India bearing a significant burden.",
+                        keyPoints: [
+                            "<strong>Preventable Tragedy:</strong> Cervical cancer is almost entirely preventable via the HPV vaccine, yet coverage remains low.",
+                            "<strong>Indigenous Solution:</strong> India's first indigenous vaccine 'CERVAVAC' (by SII) offers a cost-effective intervention.",
+                            "<strong>Policy Gap:</strong> The rollout of the HPV vaccine in the Universal Immunization Programme (UIP) has been delayed."
+                        ],
+                        wayForward: ["Mission-mode rollout of HPV vaccine for girls aged 9-14.", "Integrate screening into primary healthcare centers (PHCs)."],
+                        fodder: { vaccine: "CERVAVAC", target: "Eliminate Cervical Cancer by 2030 (WHO Goal)" },
+                        question: "Cervical cancer is a public health crisis that disproportionately affects women in lower socio-economic groups. Discuss the barriers to its elimination in India.",
+                        deepDive: `<h3>1. The Strategy</h3><p>The WHO '90-70-90' target: 90% of girls vaccinated, 70% of women screened, and 90% of those with disease treated. <br><h3>2. The Challenge</h3><p>Cultural stigma around sexual health and vaccine hesitancy are major roadblocks. A schooling-based vaccination drive (like for Tetanus) is the most effective delivery mechanism.</p>`
+                    },
+                    {
+                        title: "Draft Seeds Bill 2025: Farmer Rights vs. Corporate Control",
+                        source: "The Hindu",
+                        paper: "GS Paper 3",
+                        topic: "Agriculture & IPR",
+                        originalLink: "https://forumias.com/blog/9-pm-upsc-current-affairs-articles-29-november-2025/",
+                        context: "The new Draft Seeds Bill aims to replace the 1966 Act but has sparked protests over fears it will dilute farmers' rights to save and exchange seeds.",
+                        keyPoints: [
+                            "<strong>Modernization:</strong> Aims to regulate seed quality, introduce traceability, and penalize spurious seeds.",
+                            "<strong>The Conflict:</strong> Farmers fear it aligns with UPOV norms, prioritizing breeder rights (corporations) over farmer rights.",
+                            "<strong>Centralization:</strong> The Bill proposes a central registration committee, reducing the power of state governments."
+                        ],
+                        wayForward: ["Explicitly protect Section 39 of PPV&FR Act (Farmer's Right).", "Decentralize seed certification to state bodies."],
+                        fodder: { act: "PPV&FR Act 2001", term: "Seed Sovereignty" },
+                        question: "Critically analyze the Draft Seeds Bill 2025. Does it strike the right balance between corporate innovation and farmers' seed sovereignty?",
+                        deepDive: `<h3>1. The Core Fear</h3><p>Indian agriculture relies on 'informal seed systems' where farmers exchange seeds. If the new Bill mandates that only 'registered' seeds can be sold, it could criminalize traditional practices and increase input costs. <br><h3>2. International Pressure</h3><p>Global trade agreements often push for strict IPR on seeds (UPOV convention). India has resisted this to protect smallholders.</p>`
+                    },
+                    {
+                        title: "India's Disaster Response: The Federal Faultline",
+                        source: "The Hindu Editorial",
+                        paper: "GS Paper 2",
+                        topic: "Federalism & Disaster Management",
+                        originalLink: "https://www.thehindu.com/opinion/op-ed/indias-disaster-response-a-slippery-slope-for-federalism/article70335627.ece",
+                        context: "The disparity in central aid distribution (e.g., ₹260 Cr for Kerala vs. ₹2200 Cr demand) highlights the politicization of disaster relief funds (NDRF).",
+                        keyPoints: [
+                            "<strong>Discretionary Power:</strong> The Centre has vast discretion in declaring a 'calamity of severe nature', which triggers funding.",
+                            "<strong>Fiscal Stress:</strong> States bear the immediate burden of relief but lack the fiscal space (due to GST constraints) to borrow more.",
+                            "<strong>Delay as Denial:</strong> Long delays in central team visits and fund release undermine the purpose of emergency relief."
+                        ],
+                        wayForward: ["Institutionalize an objective formula for NDRF allocation.", "Declare 'National Calamities' based on scientific criteria, not political discretion."],
+                        fodder: { fund: "NDRF / SDRF", article: "Article 280 (Finance Commission Role)" },
+                        question: "The politicization of disaster relief funds threatens the federal fabric of India. Discuss with reference to recent controversies.",
+                        deepDive: `<h3>1. The Mechanism</h3><p>States have the SDRF (State Disaster Response Fund). When that is exhausted, they seek NDRF funds. The Centre sends an 'Inter-Ministerial Central Team' (IMCT) to assess damage. <br><h3>2. The Problem</h3><p>There is no statutory time limit for the IMCT to submit its report or for the Home Ministry to release funds, leaving opposition-ruled states vulnerable.</p>`
+                    }
+                ]
+            },
         
     '2025-11-29': {
                 dateLabel: 'November 29, 2025',
@@ -342,4 +433,5 @@ const articlesDB = {
             }
 };
         
+
 
