@@ -3,140 +3,141 @@
             'Economics': {
                 date: 'December 1, 2025',
                 lead: {
-                    headline: "Stock Markets Eye RBI Policy After GDP Surge",
-                    summary: "After the stellar 8.2% GDP print, all eyes are on the RBI's Monetary Policy Committee (MPC) meeting starting Dec 3. Markets expect a 'status quo' on rates but will look for a change in stance to 'Neutral', signaling future cuts.",
-                    link: "https://www.financialexpress.com/market/analysts-eye-rbis-december-cut-fii-bets-amp-global-trends-as-key-market-triggers-4061045/"
+                    headline: "Q2 GDP Hits 8.2%; October IIP Data Release Today",
+                    summary: "The Indian economy grew at an impressive 8.2% in the July-September quarter, fueled by a manufacturing boom. To align data releases, the government has rescheduled the October Industrial Production (IIP) data to be released today.",
+                    link: "https://www.thehindu.com/business/Economy/indian-economy-grows-82-in-q2-2025-26/article70334383.ece"
                 },
                 bullets: [
-                    { tag: "Data", text: "Government to release October Industrial Production (IIP) data today at 4 PM.", link: "https://m.economictimes.com/news/economy/indicators/govt-to-release-october-industrial-output-iip-data-on-dec-1-amid-gdp-coincidence/articleshow/125636208.cms" },
-                    { tag: "Auto", text: "Auto majors to release November sales numbers; SUV demand expected to remain robust.", link: "https://www.financialexpress.com/market/analysts-eye-rbis-december-cut-fii-bets-amp-global-trends-as-key-market-triggers-4061045/" },
-                    { tag: "Tax", text: "Winter Session to discuss bill replacing GST compensation cess with specific excises.", link: "https://timesofindia.indiatimes.com/business/india-business/parliament-winter-sessions-economic-agenda-9-bills-listed-for-discussion-insurance-sin-goods-taxation-and-more-in-focus/articleshow/125674626.cms" },
-                    { tag: "Insurance", text: "Insurance Laws Amendment Bill listed; seeks to raise FDI cap to 100%.", link: "https://timesofindia.indiatimes.com/business/india-business/parliament-winter-sessions-economic-agenda-9-bills-listed-for-discussion-insurance-sin-goods-taxation-and-more-in-focus/articleshow/125674626.cms" },
-                    { tag: "FII", text: "Foreign investors turn net buyers in November, pumping ₹9,000 crore into equities.", link: "https://www.financialexpress.com/market/analysts-eye-rbis-december-cut-fii-bets-amp-global-trends-as-key-market-triggers-4061045/" },
-                    { tag: "Reform", text: "Securities Markets Code Bill 2025 to consolidate capital market laws introduced.", link: "https://timesofindia.indiatimes.com/business/india-business/parliament-winter-sessions-economic-agenda-9-bills-listed-for-discussion-insurance-sin-goods-taxation-and-more-in-focus/articleshow/125674626.cms" }
+                    { tag: "Policy", text: "RBI likely to keep repo rate unchanged at 6.5% in Dec meeting despite GDP beat.", link: "https://www.financialexpress.com/policy/economy-rbi-may-cut-rates-by-25-bps-in-december-economists-see-record-low-inflation-strong-gdp-key-triggers-4060783/" },
+                    { tag: "Exports", text: "Engineering exports fell 16.7% in October due to US tariffs and weak EU demand.", link: "https://timesofindia.indiatimes.com/business/india-business/us-tariffs-bite-indias-engineering-exports-slump-16-7-in-october-asean-eu-and-uae-shipments-weaken/articleshow/125661032.cms" },
+                    { tag: "Auto", text: "November auto sales numbers expected today; SUV segment likely to lead growth.", link: "https://www.financialexpress.com/market/analysts-eye-rbis-december-cut-fii-bets-amp-global-trends-as-key-market-triggers-4061045/" },
+                    { tag: "Tax", text: "Govt to introduce Health Security Cess on tobacco to replace GST compensation cess.", link: "https://timesofindia.indiatimes.com/business/india-business/parliament-winter-sessions-economic-agenda-9-bills-listed-for-discussion-insurance-sin-goods-taxation-and-more-in-focus/articleshow/125674626.cms" },
+                    { tag: "Insolvency", text: "Manipal Group formally submits EoI to acquire Byju's parent company.", link: "https://www.thehindu.com/news/national/karnataka/manipal-group-submits-eoi-to-participate-in-insolvency-process-ofthink-learn-parent-of-byjus/article70275975.ece" },
+                    { tag: "Insurance", text: "Bill to raise FDI cap in insurance to 100% listed for Winter Session.", link: "https://timesofindia.indiatimes.com/business/india-business/parliament-winter-sessions-economic-agenda-9-bills-listed-for-discussion-insurance-sin-goods-taxation-and-more-in-focus/articleshow/125674626.cms" }
                 ],
-                stat: { label: "Forex Reserves", value: "$640 Bn", desc: "India's foreign exchange reserves remain at a comfortable 11-month high." }
+                stat: { label: "Q2 GDP Growth", value: "8.2%", desc: "Real GDP growth for Q2 FY26, driven by a 9.1% surge in manufacturing." }
             },
             'Politics': {
                 date: 'December 1, 2025',
                 lead: {
-                    headline: "Winter Session Begins: Opposition Set to Corner Govt",
-                    summary: "The Parliament Winter Session starts today. The Opposition is united in demanding debates on the Adani indictment issue, the Sambhal violence, and the Manipur situation. The government has listed 15 bills for passage, setting the stage for a stormy session.",
+                    headline: "Winter Session Begins: Oppn Unites on Electoral Rolls",
+                    summary: "Parliament's Winter Session starts today with the Opposition demanding a debate on the 'Special Intensive Revision' (SIR) of electoral rolls and national security. The government has listed 15 bills for passage.",
                     link: "https://www.thehindu.com/news/national/all-party-meeting-opposition-demands-debate-on-sir-national-security-in-parliament/article70341766.ece"
                 },
                 bullets: [
-                    { tag: "Bills", text: "Waqf Amendment Bill and One Nation One Election report likely to be tabled.", link: "https://m.economictimes.com/news/politics-and-nation/parliament-winter-session-agenda-sin-goods-taxation-atomic-bill-on-table-as-oppn-gears-up-for-showdown-over-sir/articleshow/125675893.cms" },
-                    { tag: "Security", text: "Opposition demands discussion on national security following Delhi blast.", link: "https://www.thehindu.com/news/national/all-party-meeting-opposition-demands-debate-on-sir-national-security-in-parliament/article70341766.ece" },
-                    { tag: "Maharashtra", text: "Eknath Shinde likely to be Deputy CM as BJP asserts claim over CM post.", link: "https://www.thehindu.com/news/" },
-                    { tag: "Cyclone", text: "Tamil Nadu CM reviews preparedness as Cyclone Ditwah brings heavy rains.", link: "https://www.thehindu.com/news/" },
-                    { tag: "Foreign", text: "Bangladesh situation to be raised; India assures safety of minorities.", link: "https://www.thehindu.com/news/" },
-                    { tag: "Judiciary", text: "Supreme Court questions Centre on delay in judicial appointments.", link: "https://www.thehindu.com/news/" }
+                    { tag: "Security", text: "Opposition demands discussion on national security following Delhi blast incident.", link: "https://www.thehindu.com/news/national/all-party-meeting-opposition-demands-debate-on-sir-national-security-in-parliament/article70341766.ece" },
+                    { tag: "Bills", text: "Atomic Energy Bill and HECI Bill among key legislations listed for the session.", link: "https://m.economictimes.com/news/politics-and-nation/parliament-winter-session-agenda-sin-goods-taxation-atomic-bill-on-table-as-oppn-gears-up-for-showdown-over-sir/articleshow/125675893.cms" },
+                    { tag: "Diplomacy", text: "Russian President Putin to visit India on Dec 4-5 for annual summit.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
+                    { tag: "Statue", text: "PM Modi unveils 77-ft Lord Ram statue in Goa; emphasizes cultural heritage.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" },
+                    { tag: "Maharashtra", text: "Paid holiday declared on Dec 2 for civic council elections in the state.", link: "https://www.thehindu.com/news/" },
+                    { tag: "Farmers", text: "Punjab farmers protest Electricity Bill 2025; demand legal MSP guarantee.", link: "https://indianexpress.com/article/explained/everyday-explainers/inside-punjab-protests-against-centres-new-power-law-concerns-about-cherry-picking-consumers-eroding-subsidies-10389175/" }
                 ],
-                stat: { label: "Bills Listed", value: "15", desc: "Number of legislative bills the government plans to pass in this short winter session." }
+                stat: { label: "Bills Listed", value: "15", desc: "Number of legislative bills the government plans to introduce/pass in the Winter Session." }
             },
             'Technology': {
                 date: 'December 1, 2025',
                 lead: {
-                    headline: "Android 17 'Cinnamon Bun': Early Leaks Surface",
-                    summary: "Reports suggest Google is working on Android 17, codenamed 'Cinnamon Bun', slated for a mid-2026 release. It promises a major UI overhaul with 'Material 3' design, deeper AI integration, and enhanced privacy controls similar to iOS.",
+                    headline: "Android 17 'Cinnamon Bun': First Details Emerge",
+                    summary: "Google is reportedly working on Android 17, codenamed 'Cinnamon Bun', set for a 2026 release. It promises a 'Material 3' design overhaul, deeper AI integration, and privacy features inspired by iOS.",
                     link: "https://www.indiatoday.in/technology/news/story/google-gears-up-for-android-17-launch-expected-release-date-top-features-and-everything-to-know-2828337-2025-11-30"
                 },
                 bullets: [
-                    { tag: "AI", text: "Elon Musk predicts 'work will become optional' due to AI advancements.", link: "https://indianexpress.com/article/technology/tech-news-technology/elon-musk-predicts-work-will-become-optional-due-to-ai-in-talk-with-nikhil-kamath-10394817/" },
-                    { tag: "Deals", text: "Cyber Monday sales kick off; iPhone Air sees massive price drop in India.", link: "https://timesofindia.indiatimes.com/technology/tech-news/iphone-air-price-in-india-drops-check-discounts-on-reliance-digital-amazon-croma-and-flipkart/articleshow/125671937.cms" },
-                    { tag: "Gaming", text: "GTA 6 trailer rumor sparks frenzy; Rockstar Games remains silent.", link: "#" },
-                    { tag: "Space", text: "ISRO to launch Proba-3 mission for ESA on Dec 4 via PSLV-C59.", link: "https://www.isro.gov.in/" },
-                    { tag: "Telecom", text: "DoT to conduct spectrum auction for satellite broadband services next year.", link: "https://dot.gov.in/" },
-                    { tag: "App", text: "WhatsApp introduces 'View Once' for voice notes to enhance privacy.", link: "https://blog.whatsapp.com/" }
+                    { tag: "AI Future", text: "Elon Musk predicts 'work will become optional' due to AI in talk with Nikhil Kamath.", link: "https://indianexpress.com/article/technology/tech-news-technology/elon-musk-predicts-work-will-become-optional-due-to-ai-in-talk-with-nikhil-kamath-10394817/" },
+                    { tag: "Deals", text: "iPhone Air gets massive price cut in India as retailers extend Black Friday sales.", link: "https://timesofindia.indiatimes.com/technology/tech-news/iphone-air-price-in-india-drops-check-discounts-on-reliance-digital-amazon-croma-and-flipkart/articleshow/125671937.cms" },
+                    { tag: "Medical AI", text: "Apollo Hospitals partners with Google Cloud to build AI-driven clinical intelligence engine.", link: "https://cloud.google.com/blog/products/ai-machine-learning/how-apollo-247-leverages-medlm-with-rag-to-revolutionize-healthcare" },
+                    { tag: "Space", text: "ISRO developing 'Soorya' NGLV rocket to replace PSLV/GSLV by 2034.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" },
+                    { tag: "Telecom", text: "GCWCN 2025 highlights 'Zero-Trust' security models for 6G networks.", link: "https://timesofindia.indiatimes.com/city/pune/gcwcn-2025-showcases-breakthrough-innovations-across-ai-quantum-computing-iot-healthcare-engineering/articleshow/125554437.cms" },
+                    { tag: "Cybersec", text: "CERT-In issues high-severity warning for 'Daam' malware targeting Android.", link: "https://www.csk.gov.in/alerts.html" }
                 ],
-                stat: { label: "AI Funding", value: "$400 Bn", desc: "Global venture capital investment in Generative AI startups since 2023." }
+                stat: { label: "Projected Year", value: "2026", desc: "Expected release year for Google's major Android 17 OS update." }
             },
             'Education': {
                 date: 'December 1, 2025',
                 lead: {
                     headline: "Schools Closed in Chennai Due to Cyclone Alert",
-                    summary: "Schools in Chennai, Tirupati, and coastal districts of Tamil Nadu and Andhra Pradesh are closed today (Dec 1) due to heavy rainfall warnings from Cyclone Ditwah. District collectors have issued orders to ensure student safety.",
+                    summary: "Schools in Chennai, Tirupati, and coastal districts of Tamil Nadu and Andhra Pradesh are closed today due to the approaching Cyclone Ditwah. Authorities have issued red alerts for heavy rainfall in the region.",
                     link: "https://www.jagranjosh.com/articles/school-holiday-on-1-december-2025-monday-schools-closed-in-these-states-due-to-rain-and-regional-festivals-1800005869-1"
                 },
                 bullets: [
-                    { tag: "Exam", text: "AIBE 20 exam held yesterday; results expected in 2 weeks.", link: "https://timesofindia.indiatimes.com/education/news/aibe-20-exam-2025-on-november-30-check-exam-day-dos-and-donts-issued-by-bci-here/articleshow/125579919.cms" },
-                    { tag: "Reform", text: "HECI Bill to replace UGC/AICTE listed for Winter Session passage.", link: "https://www.indiatoday.in/education-today/news/story/ugc-aicte-set-to-be-replaced-as-single-higher-education-regulator-moves-forward-2824637-2025-11-23" },
-                    { tag: "Policy", text: "Experts call for 'Skill-based education' to tackle youth unemployment.", link: "https://timesofindia.indiatimes.com/city/ranchi/skill-based-education-call/articleshow/125677130.cms" },
+                    { tag: "Reform", text: "HECI Bill to replace UGC/AICTE listed for introduction in Parliament Winter Session.", link: "https://indianexpress.com/article/explained/everyday-explainers/what-is-the-centres-higher-education-commission-of-india-bill-2025-10382060/" },
+                    { tag: "Exam", text: "AIBE 20 held yesterday; Bar Council enforced strict 'No Notes' policy.", link: "https://timesofindia.indiatimes.com/education/news/aibe-20-exam-2025-on-november-30-check-exam-day-dos-and-donts-issued-by-bci-here/articleshow/125579919.cms" },
+                    { tag: "Ranking", text: "IISc Bangalore tops NIRF 2025 University rankings; IIT Madras leads overall.", link: "https://engineering.careers360.com/articles/iisc-bangalore-nirf-ranking" },
+                    { tag: "Skill", text: "CBSE introduces 'Design Thinking' as a skill subject for classes 6-12.", link: "https://www.cbse.gov.in/cbsenew/documents/01_Circular_2025_SKILL_10012025.pdf" },
                     { tag: "Festival", text: "Thiruvananthapuram Revenue District School Youth Festival begins today.", link: "https://timesofindia.indiatimes.com/city/thiruvananthapuram/thiruvananthapuram-revenue-district-school-youth-festival-begins-on-december-1/articleshow/125663044.cms" },
-                    { tag: "CAT", text: "CAT 2025 analysis: Quant section tougher than previous years.", link: "https://www.ndtv.com/education" },
-                    { tag: "Jobs", text: "Railway Recruitment Board (RRB) announces 1.5 lakh new vacancies.", link: "https://indianrailways.gov.in/" }
+                    { tag: "Policy", text: "AAP teachers' wing opposes HECI Bill, terming it 'marketisation' of education.", link: "https://www.theweek.in/wire-updates/national/2025/12/01/des50-dl-heci-aadta.html" }
                 ],
-                stat: { label: "Participants", value: "8,299", desc: "Number of students competing in the Thiruvananthapuram School Youth Festival." }
-            },
-            'Engineering': {
-                date: 'December 1, 2025',
-                lead: {
-                    headline: "Engineering Exports Slump 16.7% in October",
-                    summary: "India's engineering exports witnessed a sharp decline of 16.7% in October 2025, primarily due to rising protectionism and tariffs in the US and EU. The EEPC has called for government support to navigate the global slowdown.",
-                    link: "https://timesofindia.indiatimes.com/business/india-business/us-tariffs-bite-indias-engineering-exports-slump-16-7-in-october-asean-eu-and-uae-shipments-weaken/articleshow/125661032.cms"
-                },
-                bullets: [
-                    { tag: "JEE", text: "JEE Main registrations hit record 14.5 lakh; engineering craze continues.", link: "https://timesofindia.indiatimes.com/city/mumbai/engineering-entrance-exam-jee-main-session-1-sees-record-14-5-lakh-applications/articleshow/125622056.cms" },
-                    { tag: "Innovation", text: "GCWCN 2025 showcases 'Quantum-Federated Learning' for cybersecurity.", link: "https://timesofindia.indiatimes.com/city/pune/gcwcn-2025-showcases-breakthrough-innovations-across-ai-quantum-computing-iot-healthcare-engineering/articleshow/125554437.cms" },
-                    { tag: "Infrastructure", text: "L&T to execute electrification of Mumbai-Ahmedabad Bullet Train project.", link: "https://www.larsentoubro.com/" },
-                    { tag: "Robotics", text: "Genrobotics 'Bandicoot' robots deployed in more cities to end manual scavenging.", link: "https://sanitation.genrobotics.com/" },
-                    { tag: "Space", text: "ISRO developing NGLV 'Soorya' rocket to replace PSLV by 2034.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" },
-                    { tag: "Energy", text: "Adani Energy bags 2.5 GW transmission project in Khavda renewable zone.", link: "https://www.mercomindia.com/adani-energy-bags-transmission-project-to-evacuate-2-5-gw-of-renewable-energy" }
-                ],
-                stat: { label: "Applicants", value: "14.5 Lakh", desc: "Record number of students applying for JEE Main 2025, highlighting engineering demand." }
+                stat: { label: "Participants", value: "8,299", desc: "Number of students participating in the Thiruvananthapuram School Youth Festival." }
             },
             'Medical': {
                 date: 'December 1, 2025',
                 lead: {
-                    headline: "World AIDS Day: India on Track for 2030 Elimination",
-                    summary: "On World AIDS Day, the Health Ministry released data showing a 48% decline in new HIV infections over the last decade. The focus now shifts to the 'Sampoorna Suraksha' strategy, aiming to bridge the testing gap and ensure 95% of diagnosed patients are virally suppressed.",
-                    link: "https://www.thehindu.com/sci-tech/health/world-aids-day-india-progress-2030-target/article67925678.ece"
+                    headline: "World AIDS Day: India on Track for 2030 Target",
+                    summary: "On World AIDS Day, health authorities highlighted India's success in reducing HIV prevalence. Andhra Pradesh has emerged as a top performer in controlling cases, achieving nearly 77% of its control targets.",
+                    link: "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-stands-first-in-controlling-hiv-cases-says-health-minister/article70342004.ece"
                 },
                 bullets: [
-                    { tag: "Vaccine", text: "Serum Institute to ramp up production of 'CERVAVAC' HPV vaccine ahead of 2026 national rollout.", link: "https://www.thehindu.com/sci-tech/health/" },
-                    { tag: "Regulation", text: "CDSCO declares 50 drug samples as 'Not of Standard Quality' (NSQ) in monthly alert.", link: "https://cdsco.gov.in/opencms/opencms/en/Home/" },
-                    { tag: "NMC", text: "National Medical Commission issues new attendance norms for medical college faculty.", link: "https://www.nmc.org.in/" },
-                    { tag: "Tech", text: "Apollo Hospitals partners with Google Cloud for AI-driven disease detection.", link: "https://www.apollohospitals.com/" },
-                    { tag: "Global", text: "WHO warns of rising measles cases globally due to missed vaccination schedules.", link: "https://www.who.int/news" },
-                    { tag: "Ayush", text: "Centre allocates ₹500 Cr for integrating Ayush treatments into mainstream AIIMS hospitals.", link: "https://ayush.gov.in/" }
+                    { tag: "Appointment", text: "Manoj Joshi appointed as the new Secretary, Department of Pharmaceuticals.", link: "https://vohnetwork.com/news/policy/manoj-joshi-appointed-pharma-secretary" },
+                    { tag: "Quality", text: "CDSCO flags 148 drug samples as 'Not of Standard Quality' in October alert.", link: "https://medicaldialogues.in/news/industry/pharma/cdsco/state-drug-alert-148-medicine-samples-fail-cdsco-quality-tests-in-october-159564" },
+                    { tag: "Global", text: "WHO warns of global measles surge; 11 million cases estimated last year.", link: "https://news.un.org/en/story/2025/11/1166471" },
+                    { tag: "Attendance", text: "UGC enforces 75% mandatory attendance for college students, including medical streams.", link: "https://www.sundhapolymers.in/college-attendance-rule-2025-ugc-75-percent-mandate/" },
+                    { tag: "Tech", text: "Apollo Hospitals uses Google's MedLM AI for clinical decision support.", link: "https://cloud.google.com/blog/products/ai-machine-learning/how-apollo-247-leverages-medlm-with-rag-to-revolutionize-healthcare" },
+                    { tag: "Funding", text: "Budget 2025 allocates ₹500 Cr for AI Centres of Excellence in health and education.", link: "https://www.hindustantimes.com/india-news/in-ai-stimulus-india-allots-500-crore-for-centre-of-excellence-in-education-101738435384250.html" }
                 ],
-                stat: { label: "HIV Prevalence", value: "0.20%", desc: "Adult HIV prevalence in India, significantly lower than the global average, reflecting successful containment." }
+                stat: { label: "Target Met", value: "77%", desc: "Percentage of HIV control target achieved by Andhra Pradesh, leading the country." }
+            },
+            'Engineering': {
+                date: 'December 1, 2025',
+                lead: {
+                    headline: "JEE Main Registrations Hit Record 14.5 Lakh",
+                    summary: "The JEE Main Session-1 has witnessed an unprecedented 14.5 lakh registrations, the highest ever. Experts attribute this surge to the continued demand for technical education and government skilling initiatives.",
+                    link: "https://timesofindia.indiatimes.com/city/mumbai/engineering-entrance-exam-jee-main-session-1-sees-record-14-5-lakh-applications/articleshow/125622056.cms"
+                },
+                bullets: [
+                    { tag: "Exports", text: "Engineering exports slumped 16.7% in October due to US tariffs.", link: "https://timesofindia.indiatimes.com/business/india-business/us-tariffs-bite-indias-engineering-exports-slump-16-7-in-october-asean-eu-and-uae-shipments-weaken/articleshow/125661032.cms" },
+                    { tag: "Innovation", text: "IIT Madras develops Graphene coating to protect underwater glass structures.", link: "https://www.iitd.ac.in/" },
+                    { tag: "Robotics", text: "Genrobotics deploys 'Bandicoot' robots in more states to end manual scavenging.", link: "https://sanitation.genrobotics.com/" },
+                    { tag: "Infra", text: "Chenab Bridge, world's highest rail bridge, ready for commercial traffic.", link: "https://en.wikipedia.org/wiki/Chenab_Rail_Bridge" },
+                    { tag: "Space", text: "ISRO testing semi-cryogenic engine for future NGLV heavy-lift rockets.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" },
+                    { tag: "Energy", text: "Adani Energy wins transmission project for 2.5 GW renewable zone in Khavda.", link: "https://www.mercomindia.com/adani-energy-bags-transmission-project-to-evacuate-2-5-gw-of-renewable-energy" }
+                ],
+                stat: { label: "Applicants", value: "14.5 Lakh", desc: "Record number of student registrations for JEE Main Session-1 2025." }
             },
             'Architecture': {
                 date: 'December 1, 2025',
                 lead: {
                     headline: "Raj Sabhagruh Wins Dezeen Award 2025",
-                    summary: "The Raj Sabhagruh in Gujarat, designed by Serie Architects, has won the Dezeen Award for Best Civic Project. The structure is celebrated for its innovative use of discarded marble bricks, setting a benchmark in sustainable architecture.",
+                    summary: "The Raj Sabhagruh in Gujarat, designed by Serie Architects, has won the 2025 Dezeen Award for Best Civic Project. The building is noted for its sustainable use of 8 lakh hand-laid discarded marble bricks.",
                     link: "https://www.freepressjournal.in/mumbai/raj-sabhagruh-wins-2025-dezeen-award-for-best-civic-project"
                 },
                 bullets: [
-                    { tag: "Design", text: "BV Doshi's 'Retreat at Vitra' featured in Architectural Digest India.", link: "https://www.zinio.com/in/publications/architectural-digest-india/5361" },
-                    { tag: "Urban", text: "Bengaluru's ₹1.5L crore infrastructure plan focuses on tunnels and elevated corridors.", link: "https://timesofindia.indiatimes.com/city/bengaluru/building-bengaluru-2-0-city-bets-whopping-rs-1-5-lakh-crore-on-its-infrastructure/articleshow/125603009.cms" },
-                    { tag: "Heritage", text: "Odisha launches light & sound show at Konark Sun Temple to boost tourism.", link: "https://www.prameyanews.com/odisha-unveils-light-and-sound-show-at-konark-sun-temple" },
-                    { tag: "Event", text: "ACETECH 2025 in Mumbai draws record crowd of architects and builders.", link: "https://acetechexpo.com/" },
-                    { tag: "Airport", text: "AAI implements live monitoring for Chennai Airport Terminal 3 construction.", link: "https://timesofindia.indiatimes.com/city/chennai/aai-to-monitor-terminal-3-project/articleshow/124882491.cms" },
-                    { tag: "Global", text: "Kéré Architecture unveils designs for sustainable library in Brazil.", link: "https://www.dezeen.com/architecture/" }
+                    { tag: "Urban", text: "Bengaluru proposes ₹1.5L crore plan for urban tunnels and elevated corridors.", link: "https://timesofindia.indiatimes.com/city/bengaluru/building-bengaluru-2-0-city-bets-whopping-rs-1-5-lakh-crore-on-its-infrastructure/articleshow/125603009.cms" },
+                    { tag: "Design", text: "Architectural Digest features BV Doshi's final project at Vitra Campus.", link: "https://www.zinio.com/in/publications/architectural-digest-india/5361" },
+                    { tag: "Event", text: "ACETECH 2025 Expo showcases future building technologies in Mumbai.", link: "https://acetechexpo.com/" },
+                    { tag: "Heritage", text: "Odisha launches light & sound show at the iconic Konark Sun Temple.", link: "https://www.prameyanews.com/odisha-unveils-light-and-sound-show-at-konark-sun-temple" },
+                    { tag: "Airport", text: "AAI to monitor Chennai Airport T3 construction live to meet 2026 deadline.", link: "https://timesofindia.indiatimes.com/city/chennai/aai-to-monitor-terminal-3-project/articleshow/124882491.cms" },
+                    { tag: "Awards", text: "MAD Architects named 'Architect of the Year' at Dezeen Awards 2025.", link: "https://www.dezeen.com/2025/11/25/dezeen-awards-2025-designers-of-the-year-winners-announced/" }
                 ],
-                stat: { label: "Bricks", value: "8 Lakh", desc: "Number of recycled marble bricks used to construct the award-winning Raj Sabhagruh." }
+                stat: { label: "Bricks Used", value: "8 Lakh", desc: "Number of recycled marble bricks used in the award-winning Raj Sabhagruh project." }
             },
             'Sports': {
                 date: 'December 1, 2025',
                 lead: {
-                    headline: "Virat Kohli's 52nd Ton Seals India Win",
-                    summary: "Virat Kohli's masterful 135 (his 52nd ODI century) guided India to a comfortable 17-run victory over South Africa in the 1st ODI. Kuldeep Yadav spun a web around the Proteas, taking 4 wickets to defend the total.",
+                    headline: "Kohli's 52nd Ton Powers India to Win",
+                    summary: "Virat Kohli scored a masterful 135 (his 52nd ODI century) to guide India to a 17-run victory over South Africa in the 1st ODI. Kuldeep Yadav's 4-wicket haul helped defend the total in a thrilling finish.",
                     link: "https://timesofindia.indiatimes.com/sports/cricket/india-vs-south-africa/ind-vs-sa-virat-kohlis-hundred-kuldeep-yadav-four-for-power-indias-17-run-win-in-first-odi/articleshow/125676367.cms"
                 },
                 bullets: [
-                    { tag: "F1", text: "Max Verstappen wins Qatar GP; Norris finishing second keeps title fight alive.", link: "https://www.thehindu.com/latest-news/" },
+                    { tag: "F1", text: "Max Verstappen wins Qatar GP; title race with Norris goes to final round.", link: "https://www.thehindu.com/latest-news/" },
                     { tag: "Hockey", text: "India finishes runner-up at Sultan Azlan Shah Cup, losing 0-1 to Belgium.", link: "https://www.newsonair.gov.in/category/sports/" },
                     { tag: "TT", text: "Manika Batra leads India squad at ITTF Mixed Team World Cup in China.", link: "https://www.newsonair.gov.in/category/sports/" },
-                    { tag: "WRC", text: "Puligilla-Sherif become first Indian pair to finish on WRC3 podium.", link: "https://www.thehindu.com/latest-news/" },
-                    { tag: "Squash", text: "Velavan Senthilkumar & Anahat Singh start as favorites in HCL Squash Tour.", link: "https://www.thehindu.com/latest-news/" },
-                    { tag: "Football", text: "West Ham legend Billy Bonds passes away at 79.", link: "https://www.thehindu.com/latest-news/" }
+                    { tag: "Football", text: "Rajasthan United FC wins 41st Governor's Gold Cup.", link: "https://www.newsonair.gov.in/category/sports/" },
+                    { tag: "Badminton", text: "Kidambi Srikanth reaches final of Syed Modi International 2025.", link: "https://www.newsonair.gov.in/category/sports/" },
+                    { tag: "Cricket", text: "Rohit Sharma breaks Shahid Afridi's record for most ODI sixes (352).", link: "https://timesofindia.indiatimes.com/sports/cricket/india-vs-south-africa/ind-vs-sa-virat-kohlis-hundred-kuldeep-yadav-four-for-power-indias-17-run-win-in-first-odi/articleshow/125676367.cms" }
                 ],
-                stat: { label: "ODI Tons", value: "52", desc: "Virat Kohli's record-extending ODI century count, surpassing Sachin Tendulkar." }
+                stat: { label: "ODI Tons", value: "52", desc: "Virat Kohli's record-extending number of ODI centuries, cementing his legacy." }
             }
         };
+
 
 
 
