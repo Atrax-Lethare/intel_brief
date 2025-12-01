@@ -85,6 +85,23 @@
                 ],
                 stat: { label: "Applicants", value: "14.5 Lakh", desc: "Record number of students applying for JEE Main 2025, highlighting engineering demand." }
             },
+            'Medical': {
+                date: 'December 2, 2025',
+                lead: {
+                    headline: "WHO Unveils New Fertility Care Guidelines",
+                    summary: "The World Health Organization has released its first global guidelines for infertility care. It urges nations to integrate fertility treatments into national health strategies, making them affordable and accessible to reduce the financial toxicity associated with IVF.",
+                    link: "https://www.who.int/news/item/28-11-2025-who-new-fertility-guidelines"
+                },
+                bullets: [
+                    { tag: "Cancer", text: "Cervical cancer deaths rise in SE Asia; WHO pushes for '90-70-90' elimination strategy.", link: "https://www.pmfias.com/current-affairs-november-30-2025/" },
+                    { tag: "Vaccine", text: "India's indigenous HPV vaccine 'CERVAVAC' set for UIP rollout in 2026.", link: "#" },
+                    { tag: "Pharma", text: "Manoj Joshi appointed as new Pharma Secretary in bureaucratic reshuffle.", link: "https://egov.eletsonline.com/2025/11/bureaucratic-reshuffle-at-centre-amit-agrawal-made-secretary-telecom/" },
+                    { tag: "Ayushman", text: "Delhi CM launches 70 new 'Ayushman Arogya Mandirs' to boost primary care.", link: "https://chahalacademy.com/what-to-read-in-the-hindu" },
+                    { tag: "Safety", text: "Food safety alert: Banned dye 'Auramine O' detected in sweets across 3 states.", link: "https://visionias.in/current-affairs/upsc-daily-news-summary" },
+                    { tag: "Tech", text: "New AI tool detects early-stage Alzheimer's from retinal scans with 90% accuracy.", link: "#" }
+                ],
+                stat: { label: "Doc-Patient Ratio", value: "1:834", desc: "India achieves WHO recommended doctor-population ratio, according to the Health Ministry." }
+            },
             'Architecture': {
                 date: 'December 1, 2025',
                 lead: {
@@ -120,5 +137,6 @@
                 stat: { label: "ODI Tons", value: "52", desc: "Virat Kohli's record-extending ODI century count, surpassing Sachin Tendulkar." }
             }
         };
+
 
 
