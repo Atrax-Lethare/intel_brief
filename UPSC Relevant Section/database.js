@@ -4,89 +4,89 @@ const articlesDB = {
                 dateLabel: 'December 1, 2025',
                 articles: [
                     {
-                        title: "R&D Stagnation: The Need for an Innovation Ecosystem",
-                        source: "The Hindu Editorial",
+                        title: "Q2 GDP Surges to 8.2%: Manufacturing Leads the Way",
+                        source: "The Hindu",
                         paper: "GS Paper 3",
-                        topic: "Science & Technology / Economic Growth",
-                        originalLink: "https://www.thehindu.com/opinion/editorial/the-need-for-an-rd-driven-ecosystem/article67923456.ece",
-                        context: "India's Gross Expenditure on R&D (GERD) remains stagnant at 0.7% of GDP, threatening the 'Viksit Bharat 2047' vision. The editorial argues for a paradigm shift from government-led to private-sector-led innovation.",
+                        topic: "Indian Economy & Growth",
+                        originalLink: "https://www.thehindu.com/business/Economy/indian-economy-grows-82-in-q2-2025-26/article70334383.ece",
+                        context: "India's Gross Domestic Product (GDP) grew by 8.2% in the July-September quarter of 2025-26, surpassing estimates. This growth was primarily driven by a 9.1% surge in the manufacturing sector, signaling a robust industrial recovery.",
                         keyPoints: [
-                            "<strong>Investment Gap:</strong> While global peers like South Korea spend over 4% of GDP on R&D, India lags behind due to low private sector participation (less than 40% of total GERD).",
-                            "<strong>The 'Valley of Death':</strong> Excellent academic research often fails to translate into commercial products due to a lack of translational funding and industry-academia linkage.",
-                            "<strong>Brain Drain to Brain Gain:</strong> Retaining top talent requires competitive grants, modern infrastructure, and freedom from bureaucratic red tape."
+                            "<strong>Sectoral Performance:</strong> Manufacturing grew at a six-quarter high of 9.1%, while the services sector expanded by 9.2%. Agriculture, however, lagged with a 3.5% growth rate.",
+                            "<strong>Low Deflator Concern:</strong> Economists point out that the high real GDP growth is partly due to a very low GDP deflator (0.5%), meaning nominal growth remains in single digits (8.7%).",
+                            "<strong>Investment Lag:</strong> Gross Fixed Capital Formation (GFCF), a proxy for private investment, has not shown a commensurate upswing, indicating reliance on government capex."
                         ],
-                        wayForward: ["Operationalize the National Research Foundation (NRF) with speed.", "Incentivize private R&D through tax breaks and matching grants."],
-                        fodder: { data: "GERD stagnant at ~0.7% for two decades.", institution: "National Research Foundation (NRF)" },
-                        question: "India's ambition to become a developed nation hinges on its ability to innovate. Analyze the structural bottlenecks in India's R&D ecosystem and suggest remedial measures.",
-                        deepDive: `<h3>1. The Private Sector Challenge</h3><p>In developed economies, the private sector contributes >70% of R&D funding. In India, it is <40%. Indian corporate culture often prioritizes technology import over indigenous development due to risk aversion. <br><h3>2. The NRF Solution</h3><p>The Anusandhan National Research Foundation (ANRF) Act, 2023, aims to seed research in universities (beyond IITs) and forge partnerships with industry to democratize innovation.</p>`
+                        wayForward: ["Monitor inflation trends to stabilize the GDP deflator.", "Incentivize private sector capital expenditure to sustain growth."],
+                        fodder: { stat: "8.2% Real GDP Growth.", keyword: "GDP Deflator" },
+                        question: "India's Q2 GDP growth has surprised on the upside, but underlying indicators like the GDP deflator present a complex picture. Analyze. (10 Marks, 150 Words)",
+                        deepDive: `<p>The calculation of India's GDP has evolved significantly since the base year revision to 2011-12. Historically, high growth periods in India have often been accompanied by double-digit nominal growth. The current divergence, where Real GDP is high but Nominal GDP is relatively low due to a negligible deflator (inflation adjustment), mirrors trends seen during periods of falling commodity prices. This phenomenon was notably observed in 2015-16 when a crash in oil prices similarly boosted GVA figures by reducing input costs for manufacturers.</p>`
                     },
                     {
-                        title: "The Governor's Role: Constitutional Propriety vs. Politics",
+                        title: "HECI Bill: A Single Regulator for Higher Education",
                         source: "The Indian Express",
                         paper: "GS Paper 2",
-                        topic: "Federalism & Role of Governor",
-                        originalLink: "https://indianexpress.com/article/opinion/columns/governors-role-constitutional-propriety-9065432/",
-                        context: "Recent friction between Governors and State Governments in Tamil Nadu and Kerala over withholding assent to Bills has reignited the debate on the discretionary powers of the Governor.",
+                        topic: "Education Sector Reforms",
+                        originalLink: "https://indianexpress.com/article/explained/everyday-explainers/what-is-the-centres-higher-education-commission-of-india-bill-2025-10382060/",
+                        context: "The government is set to introduce the Higher Education Commission of India (HECI) Bill in the Winter Session. This bill aims to replace the UGC, AICTE, and NCTE with a single, unified regulator to streamline higher education governance.",
                         keyPoints: [
-                            "<strong>Discretionary Powers:</strong> Article 200 gives the Governor power to assent, withhold assent, or reserve a Bill. However, the Supreme Court has ruled that this power cannot be used to veto elected legislatures indefinitely.",
-                            "<strong>Agent vs. Head:</strong> The Governor is often perceived as an 'agent of the Centre' rather than a neutral constitutional head, eroding cooperative federalism.",
-                            "<strong>Supreme Court's Stance:</strong> In the Punjab case (2023), the SC clarified that Governors must act 'as soon as possible' and cannot sit on Bills to paralyze administration."
+                            "<strong>Unified Structure:</strong> HECI will consolidate the functions of regulation, accreditation, and academic standards under one roof, ending the fragmentation of the current system.",
+                            "<strong>Four Verticals:</strong> The commission will operate through four independent verticals: Regulation, Accreditation, Grants, and General Education Council.",
+                            "<strong>Exclusions:</strong> Medical and legal education will remain outside the purview of HECI to maintain specialized oversight."
                         ],
-                        wayForward: ["Implement Sarkaria Commission reforms on Governor appointment.", "Codify a timeline for assent to Bills in the Constitution."],
-                        fodder: { case: "Shamsher Singh vs State of Punjab (1974)", article: "Article 200 (Assent to Bills)" },
-                        question: "The office of the Governor has often been a flashpoint in Centre-State relations. Discuss the constitutional provisions regarding the Governor's legislative powers and the Supreme Court's interpretation of the same.",
-                        deepDive: `<h3>1. The Constitutional Intent</h3><p>The Constituent Assembly debated an elected Governor but chose a nominated one to preserve national unity. However, it was expected that the Governor would be a 'constitutional figurehead' acting on the aid and advice of the Council of Ministers (except in rare cases). <br><h3>2. The 'Pocket Veto'</h3><p>The Constitution does not specify a time limit for the Governor to act on a Bill. This loophole is often exploited to delay state legislation, effectively acting as a 'Pocket Veto'.</p>`
+                        wayForward: ["Ensure the new body fosters autonomy rather than centralization.", "Prioritize the creation of a robust accreditation framework."],
+                        fodder: { policy: "National Education Policy (NEP) 2020", body: "Higher Education Commission of India (HECI)" },
+                        question: "The proposed Higher Education Commission of India (HECI) seeks to replace multiple regulators with a single body. Discuss the potential benefits and challenges of this centralization. (15 Marks, 250 Words)",
+                        deepDive: `<p>The genesis of the HECI Bill lies in the National Education Policy (NEP) 2020, which advocated for an overhaul of the 'Inspector Raj' system prevalent in Indian higher education. For decades, the University Grants Commission (UGC) and the All India Council for Technical Education (AICTE) operated with overlapping mandates, leading to bureaucratic delays and a lack of focus on learning outcomes. The concept of a single regulator was first mooted by the Yash Pal Committee in 2009, which recommended a National Commission for Higher Education and Research (NCHER) to subsume existing bodies, a vision that is finally taking legislative shape now.</p>`
                     },
                     {
-                        title: "Ending AIDS by 2030: India's Progress and Gaps",
-                        source: "The Hindu",
-                        paper: "GS Paper 2",
-                        topic: "Health & Social Issues",
-                        originalLink: "https://www.thehindu.com/sci-tech/health/world-aids-day-india-progress-2030-target/article67925678.ece",
-                        context: "On World AIDS Day (Dec 1), reports indicate India is on track to meet the SDG target of ending the AIDS epidemic by 2030, but stigma and uneven access remain hurdles.",
-                        keyPoints: [
-                            "<strong>Success Story:</strong> India's National AIDS Control Programme (NACP) has successfully reversed the epidemic trend, with a significant decline in new infections and AIDS-related deaths.",
-                            "<strong>The 'Last Mile':</strong> Reaching high-risk groups (Key Populations) and ensuring adherence to Antiretroviral Therapy (ART) is critical to suppress viral loads.",
-                            "<strong>Stigma:</strong> The HIV/AIDS (Prevention and Control) Act, 2017 criminalizes discrimination, yet social ostracization persists, hindering testing and treatment."
-                        ],
-                        wayForward: ["Community-led testing initiatives to reduce stigma.", "Focus on 'Prevention' through Pre-Exposure Prophylaxis (PrEP)."],
-                        fodder: { target: "95-95-95 Strategy (UNAIDS)", act: "HIV/AIDS (Prevention and Control) Act, 2017" },
-                        question: "Assess India's performance in combating HIV/AIDS. What are the remaining socio-legal challenges in achieving the 2030 elimination target?",
-                        deepDive: `<h3>1. The 95-95-95 Target</h3><p>This UNAIDS goal aims for: 95% of PLHIV knowing their status, 95% of those diagnosed on ART, and 95% of those on ART achieving viral suppression. India is close but lags in the first pillar (testing). <br><h3>2. The Free ART Initiative</h3><p>India provides free Antiretroviral Therapy (ART) to all diagnosed patients. This has transformed HIV from a 'death sentence' to a manageable chronic condition.</p>`
-                    },
-                    {
-                        title: "Institutionalizing Animal Representation in Governance",
+                        title: "Urban Pollution: The Failure of 'Safe' Air Standards",
                         source: "The Indian Express",
-                        paper: "GS Paper 4 / GS Paper 2",
-                        topic: "Ethics & Governance",
-                        originalLink: "https://indianexpress.com/article/opinion/columns/animal-welfare-governance-representation-9068901/",
-                        context: "With rising human-animal conflict (stray dogs, wildlife encroachment), experts argue for a dedicated statutory body to represent animal interests in urban planning and policy.",
+                        paper: "GS Paper 3",
+                        topic: "Environment & Pollution",
+                        originalLink: "https://indianexpress.com/article/explained/urban-indian-city-safe-air-quality-10391338/",
+                        context: "A new report by Climate Trends reveals that no major Indian city has met 'safe' air quality levels consistently over the last decade (2015-2025). Northern cities like Delhi fare significantly worse than their southern counterparts.",
                         keyPoints: [
-                            "<strong>Anthropocentric Bias:</strong> Current development models prioritize human convenience over ecological balance, leading to habitat loss and conflict.",
-                            "<strong>Ethical Imperative:</strong> The Constitution (Article 51A(g)) mandates compassion for living creatures. Institutionalizing this requires a body like a 'National Animal Welfare Commission'.",
-                            "<strong>One Health Approach:</strong> Animal health is intrinsically linked to human health (zoonotic diseases). Neglecting animal welfare poses public health risks."
+                            "<strong>North vs. South Divide:</strong> Northern cities in the Indo-Gangetic Plain (IGP) suffer from the 'valley effect' and winter inversion, trapping pollutants. Southern cities benefit from coastal sea breezes.",
+                            "<strong>Surface Roughness:</strong> Dense urban structures in cities like Delhi reduce wind speed, further preventing the dispersion of pollutants.",
+                            "<strong>Policy Failure:</strong> Despite the National Clean Air Programme (NCAP), cities have failed to curb emissions at the source, relying instead on reactive measures."
                         ],
-                        wayForward: ["Establish a 'National Animal Welfare Authority' with enforcement powers.", "Mandate 'Animal Impact Assessment' for major infrastructure projects."],
-                        fodder: { article: "Article 51A(g) (Fundamental Duty)", concept: "One Health" },
-                        question: "Does the Indian governance structure adequately represent the interests of non-human stakeholders? Discuss the ethical and practical need for institutionalizing animal welfare.",
-                        deepDive: `<h3>1. The Legal Void</h3><p>The Animal Welfare Board of India (AWBI) is an advisory body with limited teeth. Cruelty cases are often punishable by meager fines (₹50) under the old PCA Act, 1960. <br><h3>2. Urban Planning Failure</h3><p>Smart Cities often lack designated spaces for community animals, leading to conflicts. A dedicated body would ensure that urban design accommodates co-existence.</p>`
+                        wayForward: ["Shift focus from city-specific plans to 'Airshed Management'.", "Prioritize source apportionment studies for targeted action."],
+                        fodder: { concept: "Airshed Management", report: "Climate Trends 10-Year Analysis" },
+                        question: "The persistent failure of Indian cities to meet air quality standards points to structural flaws in governance and planning. Analyze. (10 Marks, 150 Words)",
+                        deepDive: `<p>The systematic tracking of air quality in India began in earnest with the launch of the National Air Quality Index (NAQI) in 2014 and the subsequent National Clean Air Programme (NCAP) in 2019. While these initiatives aimed to reduce particulate matter by 20-30% by 2024, they largely focused on city-specific action plans. Historically, pollution control in India has been reactive, driven by judicial interventions like the MC Mehta cases, rather than proactive urban planning. The unique geography of the Indo-Gangetic Plain, which acts as a bowl trapping pollutants, has historically exacerbated the issue, a factor often overlooked in policy designs copied from the West.</p>`
                     },
                     {
-                        title: "Electoral Roll Integrity: The SIR Controversy",
-                        source: "The Hindu",
-                        paper: "GS Paper 2",
-                        topic: "Elections & Democracy",
-                        originalLink: "https://www.thehindu.com/news/national/opposition-raises-sir-concerns-all-party-meet/article67928901.ece",
-                        context: "Opposition parties have demanded a debate on the Special Intensive Revision (SIR) of electoral rolls, alleging mass deletion of voters without due process.",
+                        title: "Electricity Amendment Bill: The Federal Spark",
+                        source: "The Indian Express",
+                        paper: "GS Paper 2 & 3",
+                        topic: "Federalism & Infrastructure",
+                        originalLink: "https://indianexpress.com/article/explained/everyday-explainers/inside-punjab-protests-against-centres-new-power-law-concerns-about-cherry-picking-consumers-eroding-subsidies-10389175/",
+                        context: "Farmers and engineers in Punjab are protesting the Electricity Amendment Bill 2025, fearing privatization of profits and nationalization of losses in the power sector.",
                         keyPoints: [
-                            "<strong>Inclusion vs. Exclusion:</strong> While ECI aims to clean the rolls (remove duplicates/deceased), errors can lead to the disenfranchisement of genuine voters.",
-                            "<strong>Due Process:</strong> The ECI mandates notice and verification before deletion, but ground reports suggest arbitrary deletions in some constituencies.",
-                            "<strong>Technological safeguards:</strong> Use of AI/ML to identify duplicates must be backed by physical verification to prevent algorithmic bias."
+                            "<strong>Cherry-Picking:</strong> Protesters argue private players will serve only profitable commercial/industrial consumers, leaving state DISCOMs with subsidized rural/agricultural consumers.",
+                            "<strong>Cross-Subsidy Threat:</strong> State DISCOMs rely on high commercial tariffs to subsidize farmers. If commercial users leave, the subsidy model collapses.",
+                            "<strong>Federal Encroachment:</strong> Electricity is a concurrent subject; states feel the Centre is unilaterally imposing a market model."
                         ],
-                        wayForward: ["Transparency in deletion lists (public display).", "Empower BLOs (Block Level Officers) with better training and accountability."],
-                        fodder: { body: "Election Commission of India (ECI)", term: "Electoral Roll Revision" },
-                        question: "The integrity of the electoral roll is the bedrock of free and fair elections. Discuss the challenges in maintaining accurate rolls in a populous democracy like India.",
-                        deepDive: `<h3>1. The Magnitude</h3><p>India has over 950 million voters. Maintaining an error-free list is a massive administrative challenge. <br><h3>2. The Linkage Debate</h3><p>Linking Aadhaar with Voter ID was proposed as a solution to weed out duplicates (bogus voters), but it raises privacy concerns and fears of voter profiling. The Supreme Court is currently seizing of the matter.</p>`
+                        wayForward: ["Guarantee 'Universal Service Obligation' for private licensees.", "Direct Benefit Transfer (DBT) for subsidies to protect farmers."],
+                        fodder: { term: "Cross-Subsidy Surcharge", list: "Concurrent List (Entry 38)" },
+                        question: "Power sector reforms often face resistance due to the complex political economy of subsidies. Discuss the concerns raised by states regarding the Electricity Amendment Bill. (15 Marks, 250 Words)",
+                        deepDive: `<p>The Indian power sector has been plagued by the 'DISCOM crisis' for decades, with cumulative losses reaching unsustainable levels despite multiple bailout packages like UDAY. The Electricity Act of 2003 was the first major step towards de-licensing generation and introducing open access. The current amendment builds on this by attempting to de-license distribution, similar to the telecom sector. However, unlike telecom, electricity in India is deeply tied to the welfare state model, where agricultural and domestic subsidies have been political non-negotiables since the Green Revolution era.</p>`
+                    },
+                    {
+                        title: "Army & Conscience: The Kamalesan Verdict",
+                        source: "The Hindu",
+                        paper: "GS Paper 4",
+                        topic: "Ethics in Public Administration",
+                        originalLink: "https://www.indiatoday.in/india/law-news/story/army-is-secular-supreme-court-upholds-christian-officers-dismissal-over-refusal-to-enter-temple-sanctum-2825546-2025-11-25",
+                        context: "The Supreme Court upheld the dismissal of an Army officer who refused to enter a temple sanctum citing religious beliefs, reinforcing that military discipline overrides individual choices.",
+                        keyPoints: [
+                            "<strong>Secular Fabric:</strong> The Army operates on the 'Sarva Dharma Sthal' principle where officers must respect and participate in the religious traditions of their troops to build cohesion.",
+                            "<strong>Discipline First:</strong> The court ruled that an officer cannot have a 'private understanding' of religion that conflicts with lawful commands.",
+                            "<strong>Article 33:</strong> This constitutional provision allows Parliament to restrict the fundamental rights of armed forces personnel to ensure the proper discharge of duties."
+                        ],
+                        wayForward: ["Reinforce the 'Unit Ethos' training for young officers.", "Ensure command sensitivity to genuine religious constraints where operational readiness isn't affected."],
+                        fodder: { article: "Article 33", concept: "Unit Cohesion" },
+                        question: "In the armed forces, 'Duty' often supersedes 'Right'. Analyze this statement in the context of the recent Supreme Court judgment on military discipline. (10 Marks, 150 Words)",
+                        deepDive: `<p>The Indian Army's tradition of secularism is unique, derived not from the separation of religion and state, but from the integration of all faiths within the regiment. Since the British era, officers have been expected to lead troops of diverse faiths by participating in their festivals and rituals to foster 'Esprit de Corps'. This specific case highlights the legal tension between Article 25 (Freedom of Religion) and Article 33. Historically, courts in India have consistently deferred to military wisdom on matters of discipline, viewing the armed forces as a distinct class where operational cohesion is paramount over individual liberty.</p>`
                     }
                 ]
             },
@@ -522,6 +522,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
