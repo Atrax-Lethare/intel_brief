@@ -129,6 +129,10 @@
         .btn-outline { background: transparent; color: var(--text-secondary); border: 1px solid var(--border-color); padding: 10px 20px; border-radius: 25px; font-weight: 500; cursor: pointer; transition: 0.2s; font-size: 14px; text-decoration: none; display: inline-block; }
         .btn-outline:hover { background: #f3f4f6; color: var(--text-primary); }
 
+        /* Wiki Button Style */
+        .btn-wiki { background: #f3f4f6; color: #4b5563; border: 1px solid #d1d5db; padding: 10px 20px; border-radius: 25px; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 14px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+        .btn-wiki:hover { background: #e5e7eb; color: #1f2937; }
+
         /* MODAL */
         .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 100; display: flex; justify-content: center; align-items: center; opacity: 0; pointer-events: none; transition: opacity 0.2s; backdrop-filter: blur(4px); }
         .modal-overlay.active { opacity: 1; pointer-events: auto; }
@@ -261,5 +265,6 @@
         /* Highlight Class */
         .highlight-span { border-radius: 4px; padding: 2px 0; cursor: pointer; transition: background-color 0.2s; }
         .highlight-span:hover { filter: brightness(0.95); }
+
 
 
