@@ -136,7 +136,7 @@
                 ],
                 stat: { label: "Patients Treated", value: "300+", desc: "Number of patients treated by India's BHISHM Cube unit in cyclone-hit Sri Lanka." }
             }
-                'Space': {
+        'Space': {
                 date: 'December 2, 2025',
                 lead: {
                     headline: "Gaganyaan Mission: ISRO Ready for 'G1' Test Flight",
@@ -154,6 +154,7 @@
                 stat: { label: "Tests Done", value: "80,000", desc: "Number of rigorous tests completed by ISRO systems to qualify for the manned Gaganyaan mission." }
             },
         };
+
 
 
 
