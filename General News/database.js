@@ -136,7 +136,25 @@
                 ],
                 stat: { label: "Patients Treated", value: "300+", desc: "Number of patients treated by India's BHISHM Cube unit in cyclone-hit Sri Lanka." }
             }
+                'Space': {
+                date: 'December 2, 2025',
+                lead: {
+                    headline: "Gaganyaan Mission: ISRO Ready for 'G1' Test Flight",
+                    summary: "ISRO Chairman has confirmed that the agency is fully prepared for the first uncrewed Gaganyaan mission (G1), scheduled for this December. The launch will validate the performance of the Crew Module and the Escape System, paving the way for India's first human spaceflight in 2027.",
+                    link: "https://www.newindianexpress.com/cities/bengaluru/2025/Nov/20/80000-gaganyaan-tests-done-ready-to-launch-uncrewed-mission-any-time-isro-chief"
+                },
+                bullets: [
+                    { tag: "Private Sector", text: "Agnikul Cosmos raises ₹150 Cr to advance reusable rocket technology.", link: "https://www.thehindu.com/news/national/tamil-nadu/space-startup-agnikul-raises-150-crore-to-fund-reusable-rockets/article70310628.ece" },
+                    { tag: "NISAR", text: "NASA-ISRO satellite NISAR enters 'Science Phase'; sends first radar images of Earth.", link: "https://www.thehindu.com/sci-tech/science/nisar-earth-observation-satellite-enters-final-science-operations-phase/article70334808.ece" },
+                    { tag: "SpaceX", text: "US Govt clears Elon Musk's SpaceX to build Starship launch pad at Kennedy Space Center.", link: "https://www.indiatoday.in/science/story/us-clears-elon-musks-spacex-to-build-starship-launch-pad-at-nasas-kennedy-space-center-2829291-2025-12-02" },
+                    { tag: "Launch", text: "SpaceX completes 60th mission of the year with Starlink launch from California.", link: "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-60th-mission-of-the-year-from-california" },
+                    { tag: "Education", text: "ISRO Space Science exhibition in Rajasthan draws massive student turnout.", link: "https://www.livemint.com/focus/3day-isro-space-exhibition-at-rajasthan-technical-university-draws-high-student-turnout-11764648887228.html" },
+                    { tag: "Future", text: "ISRO developing Next-Gen Launch Vehicle (NGLV) 'Soorya' to replace PSLV by 2034.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" }
+                ],
+                stat: { label: "Tests Done", value: "80,000", desc: "Number of rigorous tests completed by ISRO systems to qualify for the manned Gaganyaan mission." }
+            },
         };
+
 
 
 
