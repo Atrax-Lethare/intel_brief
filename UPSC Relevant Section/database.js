@@ -9,6 +9,7 @@ const articlesDB = {
                         paper: "GS Paper 3",
                         topic: "Science & Technology",
                         originalLink: "https://www.thehindu.com/opinion/op-ed/india-needs-research-pipelines/article70341873.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Science_and_technology_in_India",
                         context: "To achieve high growth, India must emulate advanced economies by enhancing private R&D investment and fostering industry-academia partnerships, as current public funding is insufficient.",
                         keyPoints: [
                             "<strong>Investment Gap:</strong> India's Gross Expenditure on R&D (GERD) has remained stagnant at ~0.7% of GDP, compared to >2% in developed nations.",
@@ -26,6 +27,7 @@ const articlesDB = {
                         paper: "GS Paper 2",
                         topic: "Constitutional Bodies",
                         originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Governor_(India)",
                         context: "Recurring scandals in State Public Service Commissions (SPSCs) have eroded public trust. Reforms are needed to ensure transparent, merit-based recruitment for state administrations.",
                         keyPoints: [
                             "<strong>Political Patronage:</strong> Appointments of SPSC members are often political, leading to compromised autonomy and corruption.",
@@ -43,6 +45,7 @@ const articlesDB = {
                         paper: "GS Paper 2",
                         topic: "Health Sector",
                         originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        wikiLink: "https://en.wikipedia.org/wiki/HIV/AIDS_in_India",
                         context: "With South-East Asia accounting for a quarter of global cervical cancer deaths, India is ramping up efforts to introduce the indigenous HPV vaccine in the national immunization drive.",
                         keyPoints: [
                             "<strong>Preventable Burden:</strong> Cervical cancer is the second most common cancer in Indian women and is largely preventable via vaccination.",
@@ -60,6 +63,7 @@ const articlesDB = {
                         paper: "GS Paper 3",
                         topic: "Environment & Climate Change",
                         originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Animal_welfare_in_India",
                         context: "A UNEP report identifies India as a methane hotspot, primarily from agriculture. India has consistently avoided signing the Global Methane Pledge due to food security concerns.",
                         keyPoints: [
                             "<strong>Agricultural Source:</strong> Unlike the West where fossil fuels drive methane, in India, it is enteric fermentation (livestock) and paddy cultivation.",
@@ -77,6 +81,7 @@ const articlesDB = {
                         paper: "GS Paper 2",
                         topic: "Centre-State Relations",
                         originalLink: "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-2-december-2025/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Election_Commission_of_India",
                         context: "Trends show a shrinking fiscal space for states due to the Centre's increasing reliance on cesses and surcharges, which are not shared with states, eroding the divisible pool.",
                         keyPoints: [
                             "<strong>Divisible Pool Erosion:</strong> While the 14th Finance Commission raised state share to 42%, the effective share is lower due to high cesses.",
@@ -613,6 +618,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
