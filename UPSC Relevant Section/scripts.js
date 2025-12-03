@@ -306,18 +306,17 @@
                         </div>
                         <div class="question-box">
                                 <span class="content-label" style="color:var(--accent-blue);">Practice Question</span><p class="question-text">"${article.question}"</p>
+                                <p style="font-size:small; color:grey"><i>This model answer is just a suggestion of how to write. WE PROMOTE WRITING THE ANSWERS ON YOUR OWN SO THAT YOU GRADUALLY GAIN PERFECTION IN EXPRESSING YOUR THOUGHTS ON PAPER, which is certainly necessary for the UPSC Examinations.</i></p>
                                 <!-- MODEL ANSWER BUTTON -->
-                                    <button class="btn-answer" onclick="toggleAnswer(this)">
+                                <button class="btn-answer" onclick="toggleAnswer(this)">
                                         <span>Show Model Answer</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transition: transform 0.2s"><path d="m6 9 6 6 6-6"/></svg>
-                                    </button>
+                                </button>
                                     
-                                    <p style="font-size:small; color:grey"><i>This model answer is just a suggestion of how to write. WE PROMOTE WRITING THE ANSWERS ON YOUR OWN SO THAT YOU GRADUALLY GAIN PERFECTION IN EXPRESSING YOUR THOUGHTS ON PAPER, which is certainly necessary for the UPSC Examinations.</i></p>
-                                    
-                                    <!-- HIDDEN ANSWER CONTAINER -->
-                                    <div class="model-answer-container">
+                                <!-- HIDDEN ANSWER CONTAINER -->
+                                <div class="model-answer-container">
                                         ${article.answer}
-                                    </div>
+                                </div>        
 
                         </div>
                         <div class="card-actions">
@@ -372,6 +371,7 @@
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalDirect(); });
 
         });
+
 
 
 
