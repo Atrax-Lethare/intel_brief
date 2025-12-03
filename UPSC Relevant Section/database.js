@@ -4,94 +4,171 @@ const articlesDB = {
                 dateLabel: 'December 3, 2025',
                 articles: [
                     {
-                        title: "The Delimitation Dilemma: North vs. South",
+                        title: "'Heart-Resilient' Cities: Rethinking Urban Planning",
+                        source: "The Indian Express",
+                        paper: "GS Paper 1 & 2",
+                        topic: "Urbanization & Health Policy",
+                        originalLink: "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-2-december-2025/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Urban_planning_in_India",
+                        context: "Rising cardiovascular diseases in urban India have prompted calls for 'Heart-Resilient' urban planning, integrating health metrics into city master plans to combat sedentary lifestyles and pollution.",
+                        keyPoints: [
+                            "<strong>Fragmented Planning:</strong> Disjointed urban growth locks in sedentary lifestyles and reduces access to green spaces, acting as a major health risk.",
+                            "<strong>Invisible Threats:</strong> Air and noise pollution, along with poor food environments, are 'invisible threats' driving a projected 91% rise in cardiovascular mortality.",
+                            "<strong>Intersectoral Gap:</strong> A lack of coordination between urban local bodies (infrastructure) and health departments (treatment) exacerbates the crisis."
+                        ],
+                        wayForward: ["Adopt a 'Health in All Policies' approach.", "Mandate 'Active Mobility' infrastructure (cycling/walking paths) in all new projects."],
+                        fodder: { data: "Asia faces 91% rise in CVD mortality by 2050.", concept: "15-Minute City" },
+                        question: "Fragmented urban planning in India presents 'invisible threats' to public health. Discuss the socio-economic consequences and suggest a policy framework for 'heart-resilient' cities. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Rapid urbanization in India, often driven by land-use zoning rather than livability, has created an "obesogenic environment." As per the <strong>World Heart Federation</strong>, Asia faces a projected <strong>91% rise</strong> in cardiovascular disease (CVD) mortality by 2050, largely driven by these "invisible threats" embedded in urban design.</p>
+                            
+                            <p><strong>Body Paragraph 1: Socio-Economic Consequences</strong></p>
+                            <ul>
+                                <li><strong>Economic Burden:</strong> Rising Non-Communicable Diseases (NCDs) increase <strong>Out-of-Pocket Expenditure (OOPE)</strong> for households, pushing marginal families back into poverty.</li>
+                                <li><strong>Loss of Demographic Dividend:</strong> A workforce plagued by hypertension and respiratory issues reduces national productivity and GDP.</li>
+                                <li><strong>Social Inequality:</strong> The poor, living in slums or unauthorized colonies, face the "double burden" of infectious diseases (due to poor sanitation) and lifestyle diseases (due to lack of green spaces/walkability).</li>
+                            </ul>
+
+                            <p><strong>Body Paragraph 2: Policy Framework for 'Heart-Resilient' Cities</strong></p>
+                            <p>To counter this, a <strong>'Health in All Policies' (HiAP)</strong> approach is needed:</p>
+                            <ul>
+                                <li><strong>Active Mobility Infrastructure:</strong> Mandate <strong>Non-Motorized Transport (NMT)</strong> lanes (cycling/walking) in all Master Plans. Adopt the <strong>"15-Minute City"</strong> concept where essential services are within walking distance.</li>
+                                <li><strong>Green Zoning Regulations:</strong> Enforce the <strong>WHO standard</strong> of 9 sq. meters of green space per capita. Create "Urban Forests" (Miyawaki method) to act as lungs and stress-busters.</li>
+                                <li><strong>Governance Convergence:</strong> Break silos between <strong>Urban Local Bodies (ULBs)</strong> and <strong>Health Departments</strong>. Mandate <strong>"Health Impact Assessments"</strong> for all major infrastructure projects.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> Transforming cities from "concrete jungles" to "spaces of wellness" is essential for India's long-term growth. Achieving <strong>SDG 11 (Sustainable Cities)</strong> is a prerequisite for achieving <strong>SDG 3 (Good Health and Well-being)</strong>.</p>
+                        `,
+                        deepDive: `<p>The concept of 'Healthy Cities' was initiated by the WHO in 1986, placing health high on the agenda of city decision-makers. In India, the 74th Constitutional Amendment Act (1992) empowered Urban Local Bodies (ULBs) with functions including public health and town planning. However, in practice, urban planning in India has been dominated by land-use zoning and FSI (Floor Space Index) maximization, often neglecting the 'livability' and 'wellness' aspects that determine the long-term epidemiological profile of a city's population.</p>`
+                    },
+                    {
+                        title: "Fiscal Federalism: The Challenge of Cesses",
                         source: "The Hindu Editorial",
-                        paper: "GS Paper 2",
-                        topic: "Parliament & Federalism",
-                        originalLink: "https://www.thehindu.com/opinion/lead/the-shadow-of-delimitation-on-indian-federalism/article70351122.ece",
-                        wikiLink: "https://en.wikipedia.org/wiki/Delimitation_Commission_of_India",
-                        context: "With the Census 2025 underway, concerns are mounting among Southern states regarding the upcoming Delimitation of Lok Sabha seats, which could penalize them for successful population control measures.",
+                        paper: "GS Paper 2 & 3",
+                        topic: "Centre-State Relations",
+                        originalLink: "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-2-december-2025/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Fiscal_federalism",
+                        context: "High-income states are raising concerns over the Centre's increasing reliance on cesses and surcharges, which bypass the sharable tax pool, thereby shrinking the fiscal space of states.",
                         keyPoints: [
-                            "<strong>Demographic Divergence:</strong> Southern states have achieved replacement level fertility (TFR < 2.1), while populous Northern states continue to grow, leading to a potential shift in political power.",
-                            "<strong>Constitutional Freeze:</strong> The 84th Amendment Act (2001) froze the number of Lok Sabha seats based on the 1971 Census until the first census after 2026.",
-                            "<strong>Federal Friction:</strong> A redistribution based strictly on population could reduce the representation of Tamil Nadu and Kerala, disrupting the federal balance."
+                            "<strong>Divisible Pool Erosion:</strong> Cesses and surcharges are not shared with states, effectively reducing their share of central taxes despite the 14th FC's 42% devolution formula.",
+                            "<strong>Vertical Imbalance:</strong> The Centre holds primary revenue-raising powers while states bear the brunt of social sector expenditure, creating a structural deficit.",
+                            "<strong>Autonomy Impact:</strong> Reduced unconditional transfers force states to rely on tied grants (CSS), limiting their ability to tailor development programs."
                         ],
-                        wayForward: ["Consider the '1971 population' as a permanent baseline for seat allocation.", "Strengthen the Rajya Sabha to protect the interests of smaller states."],
-                        fodder: { article: "Article 82 (Delimitation Act)", data: "TFR of Bihar (3.0) vs Kerala (1.8)" },
-                        question: "The upcoming delimitation exercise poses a serious challenge to India's federal stability. Discuss the constitutional history of the freeze on seats and suggest a way forward. (15 Marks, 250 Words)",
-                        deepDive: `<p>The process of delimitation, or redrawing electoral boundaries, is mandated by Article 82 of the Constitution to ensure equal representation for equal population segments. Historically, delimitation commissions were set up in 1952, 1963, and 1973. However, during the Emergency in 1976, the Indira Gandhi government passed the 42nd Amendment, freezing the number of Lok Sabha seats at the 1971 Census level to ensure that states implementing family planning programs were not politically penalized. This freeze was extended for another 25 years by the Atal Bihari Vajpayee government through the 84th Amendment Act in 2001, pushing the reckoning date to post-2026, creating the current impending crisis.</p>`
+                        wayForward: ["Limit the duration and scope of non-sharable cesses.", "Empower the Finance Commission to recommend caps on cesses."],
+                        fodder: { article: "Article 270 & 271", term: "Vertical Fiscal Imbalance" },
+                        question: "Analyze how the increasing reliance on cesses and surcharges by the Union Government undermines the spirit of fiscal federalism in India. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Fiscal federalism in India is built on the constitutional division of financial powers to ensure both national unity and state autonomy. However, the rising share of cesses and surcharges—from ~10% of Gross Tax Revenue in 2011 to over 20% in 2024—has become a major friction point.</p>
+                            
+                            <p><strong>Body: Erosion of Fiscal Space</strong></p>
+                            <ul>
+                                <li><strong>Bypassing the Divisible Pool:</strong> Under Article 270, taxes are shared, but Article 271 allows the Centre to levy cesses exclusively for its own use. This reduces the <em>effective</em> devolution to states far below the recommended 41%.</li>
+                                <li><strong>Vertical Imbalance:</strong> States are responsible for 60% of total government expenditure (Health, Education, Law & Order) but command only 40% of receipts. Reliance on cesses exacerbates this gap.</li>
+                                <li><strong>Undermining Autonomy:</strong> As untied funds shrink, states are forced to rely on Centrally Sponsored Schemes (CSS) which come with rigid conditions, reducing their ability to innovate locally.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> To restore trust, the Centre must limit the lifespan of cesses or include them in the divisible pool via a constitutional amendment. Strengthening the <strong>Inter-State Council</strong> for fiscal dialogue is essential to uphold the spirit of cooperative federalism.</p>
+                        `,
+                        deepDive: `<p>The constitutional scheme of financial relations (Articles 268-293) was designed to balance the Centre's need for national integration with the States' need for autonomy. However, Article 271 allows the Parliament to increase duties or taxes by a surcharge for the purposes of the Union, which goes entirely to the Centre. Over the last decade, the share of cesses and surcharges in the Gross Tax Revenue has risen from ~10% to over 20%, effectively short-changing states even as the nominal devolution percentage increased.</p>`
                     },
                     {
-                        title: "Fiscal Shift: The Return of 'Sin Tax' Levies",
-                        source: "The Indian Express",
+                        title: "Cybercrime: SC Orders Probe into 'Digital Arrests'",
+                        source: "The Hindu",
                         paper: "GS Paper 3",
-                        topic: "Government Budgeting",
-                        originalLink: "https://indianexpress.com/article/business/economy/gst-council-mulls-specific-levies-on-sin-goods-post-cess-expiry-9081234/",
-                        wikiLink: "https://en.wikipedia.org/wiki/Sin_tax",
-                        context: "As the GST Compensation Cess era ends, the Centre is proposing specific excise duties or new cesses on 'sin goods' like tobacco and aerated drinks to maintain revenue flows for public health infrastructure.",
+                        topic: "Cyber Security & Money Laundering",
+                        originalLink: "https://visionias.in/current-affairs/upsc-daily-news-summary",
+                        wikiLink: "https://en.wikipedia.org/wiki/Cybercrime_in_India",
+                        context: "The Supreme Court has directed the CBI to conduct a pan-India probe into 'digital arrest' scams, where fraudsters impersonate police to extort money, bypassing the need for state consent.",
                         keyPoints: [
-                            "<strong>Revenue Gap:</strong> The expiry of the Compensation Cess creates a fiscal hole. New levies aim to replace this without disrupting the GST rate slabs.",
-                            "<strong>Pigovian Logic:</strong> Taxing demerit goods aligns with the Pigovian principle of taxing negative externalities (health costs) to discourage consumption.",
-                            "<strong>Centre-State Dynamics:</strong> Unlike GST which is shared, specific cesses might be retained entirely by the Centre, raising concerns about the divisible pool."
+                            "<strong>Modus Operandi:</strong> Criminals use video calls to stage fake 'arrests', coercing victims into transferring funds to 'mule accounts' to avoid legal action.",
+                            "<strong>Jurisdictional Challenge:</strong> These crimes are transnational and inter-state, making it difficult for local police to investigate effectively.",
+                            "<strong>Mule Accounts:</strong> The ecosystem relies on a network of rented bank accounts to launder proceeds rapidly before authorities can freeze them."
                         ],
-                        wayForward: ["Ensure transparency in the utilization of the new health cess.", "Bring petroleum and alcohol under the GST ambit for a truly unified market."],
-                        fodder: { term: "Pigovian Tax", concept: "Divisible Pool of Taxes" },
-                        question: "Explain the rationale behind 'Sin Taxes'. How does the shift from GST Compensation Cess to specific levies impact the fiscal relationship between the Centre and States? (10 Marks, 150 Words)",
-                        deepDive: `<p>The concept of taxing 'sin goods' or demerit goods dates back to early economic theories of correcting market failures where the consumption of a good harms society (negative externality). In India, the GST regime introduced in 2017 subsumed various central and state surcharges into a single Compensation Cess to guarantee state revenues for five years. Historically, central excise duties on tobacco and petroleum have been major tools for the Union government to manage its fiscal deficit, often bypassing the sharable pool of taxes, a practice that has frequently been a point of contention in India's fiscal federalism history.</p>`
+                        wayForward: ["Implement centralized 'KYC audit' for suspicious bank accounts.", "Launch a national awareness campaign targeting the elderly."],
+                        fodder: { term: "Digital Arrest", act: "Delhi Special Police Establishment Act (DSPE)" },
+                        question: "What are 'digital arrest' scams? Examine the challenges faced by law enforcement agencies in tackling transnational cyber frauds. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> 'Digital Arrest' is a sophisticated cyber-fraud where criminals impersonate law enforcement officials over video calls, holding victims 'hostage' digitally by threatening immediate arrest, thereby extorting huge sums.</p>
+                            
+                            <p><strong>Body: Challenges in Tackling Cyber Fraud</strong></p>
+                            <ul>
+                                <li><strong>Jurisdictional Silos:</strong> Police is a State subject (List II), but cybercrime is borderless. Fraudsters operate from 'Cyber Hubs' (e.g., Jamtara, Mewat) targeting victims in other states, exploiting lack of coordination.</li>
+                                <li><strong>The 'Mule' Network:</strong> Stolen money is instantly layered through hundreds of rented 'mule accounts' across different banks, making the money trail cold before police can freeze it.</li>
+                                <li><strong>Technological Asymmetry:</strong> Criminals use VOIP, deepfakes, and VPNs, while local police stations often lack basic cyber-forensic tools and training.</li>
+                                <li><strong>International Nexus:</strong> Many servers and masterminds are located in SE Asia, requiring cumbersome Mutual Legal Assistance Treaties (MLATs) for extradition.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> The SC's directive to CBI acknowledges this as a national security threat. A unified <strong>'National Cyber Crime Coordination Centre (I4C)'</strong> with statutory powers is needed to bridge the gap between state police forces.</p>
+                        `,
+                        deepDive: `<p>Cybercrime in India has evolved from simple phishing to complex psychological manipulation techniques like 'Digital Arrests'. The legal challenge arises from the federal structure of policing (State List), while cybercrimes respect no boundaries. The Supreme Court's intervention to empower the CBI bypasses the usual requirement for 'General Consent' from states, setting a precedent for treating cyber-financial fraud as a threat to national economic security requiring a unified central response.</p>`
                     },
                     {
-                        title: "AI in Policing: The 'Smart' Transformation",
+                        title: "India's Innovation Deficit: Boosting R&D",
                         source: "The Hindu",
-                        paper: "GS Paper 3 / GS Paper 4",
-                        topic: "Internal Security & Ethics",
-                        originalLink: "https://www.thehindu.com/news/national/pm-modi-calls-for-ai-integration-in-policing-at-dgp-conference/article70355678.ece",
-                        wikiLink: "https://en.wikipedia.org/wiki/Predictive_policing",
-                        context: "At the DGPs conference, the PM called for transforming the police from a 'force' to a 'service' using AI for predictive policing while warning against the potential for algorithmic bias.",
+                        paper: "GS Paper 3",
+                        topic: "Science & Technology",
+                        originalLink: "https://visionias.in/current-affairs/upsc-daily-news-summary",
+                        wikiLink: "https://en.wikipedia.org/wiki/Science_and_technology_in_India",
+                        context: "Despite high growth, India's R&D expenditure remains low at 0.7% of GDP. An editorial argues for policy reforms to boost private sector participation and create 'research pipelines'.",
                         keyPoints: [
-                            "<strong>Predictive Policing:</strong> Using AI to analyze crime data and predict hotspots, optimizing patrol deployment.",
-                            "<strong>Facial Recognition:</strong> Deployment of systems like FRS (Facial Recognition System) for tracking criminals, though privacy concerns persist.",
-                            "<strong>Ethical AI:</strong> The risk of AI models replicating historical biases against marginalized communities in crime mapping."
+                            "<strong>Investment Lag:</strong> Compared to developed nations (>2%), India's low GERD is a bottleneck for the 'Viksit Bharat' ambition.",
+                            "<strong>Private Apathy:</strong> The government funds 60% of R&D, whereas in innovation-driven economies, the private sector leads.",
+                            "<strong>Policy Dispersal:</strong> R&D incentives are scattered across ministries, lacking a unified strategic focus for critical technologies."
                         ],
-                        wayForward: ["Establish a 'Police Technology Mission' for standardization.", "Implement strict oversight protocols for AI usage in law enforcement."],
-                        fodder: { initiative: "CCTNS (Crime and Criminal Tracking Network & Systems)", risk: "Algorithmic Bias" },
-                        question: "The integration of AI in policing offers efficiency but raises ethical concerns. Discuss the potential of 'Smart Policing' while highlighting the safeguards needed against misuse. (15 Marks, 250 Words)",
-                        deepDive: `<p>The modernization of the Indian police force has been a slow process, rooted in the colonial Police Act of 1861 which prioritized control over service. The push for technology began earnestly with the National Police Commission reports (1977-81) and later the creation of the National Crime Records Bureau (NCRB) in 1986 to digitize crime data. The CCTNS project, approved in 2009 after the Mumbai terror attacks, marked the first major step towards a centralized digital infrastructure, laying the groundwork for today's AI and big data applications in internal security.</p>`
+                        wayForward: ["Set sector-specific R&D targets (e.g., Auto, Pharma).", "Reform IP frameworks to reward commercialization of academic research."],
+                        fodder: { metric: "GERD (0.7% of GDP)", goal: "$5 Trillion Economy" },
+                        question: "Analyze the structural constraints in India's innovation ecosystem. Suggest policy reforms to enhance private sector participation in R&D. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> For India to transition from a 'user' to a 'creator' of technology, aiming for a $5 Trillion economy, its stagnation in Gross Expenditure on R&D (GERD) at 0.7% of GDP is a critical bottleneck.</p>
+                            
+                            <p><strong>Body: Structural Constraints</strong></p>
+                            <ul>
+                                <li><strong>Public Sector Dominance:</strong> Unlike the West where 70% of R&D is private, in India, the government shoulders 60%. The private sector suffers from risk aversion and prefers technology import.</li>
+                                <li><strong>The 'Valley of Death':</strong> A disconnect between academia (IITs/Universities) and Industry means promising lab prototypes rarely get funding to reach commercialization.</li>
+                                <li><strong>Weak IPR Regime:</strong> Delays in patent processing and weak enforcement of intellectual property rights discourage long-term investment in innovation.</li>
+                            </ul>
+
+                            <p><strong>Measures for Private Sector:</strong></p>
+                            <ul>
+                                <li><strong>Tax Incentives:</strong> Shift from simple deductions to outcome-based tax credits for successful patents.</li>
+                                <li><strong>Co-Funding Models:</strong> Use the <strong>National Research Foundation (NRF)</strong> to create matching grant funds where government matches private investment in strategic sectors.</li>
+                            </ul>
+                            
+                            <p><strong>Conclusion:</strong> Innovation must become a mass movement. Policies must shift from 'funding research' to 'funding outcomes' to unlock the animal spirits of the Indian private sector.</p>
+                        `,
+                        deepDive: `<p>India's Science, Technology, and Innovation (STI) Policy 2013 aimed to position India among the top 5 global scientific powers. However, the 'Triple Helix' model of innovation (Government-Industry-Academia collaboration) remains weak. Indian industry has traditionally preferred technology import over indigenous development due to the high risk and long gestation periods of R&D. The new Anusandhan National Research Foundation (ANRF) aims to correct this by providing a legislative framework for collaborative funding.</p>`
                     },
                     {
-                        title: "Antimicrobial Resistance: The 'Silent Pandemic'",
+                        title: "Legislative Retreat: The Decline of Debate",
                         source: "The Indian Express",
                         paper: "GS Paper 2",
-                        topic: "Health Issues",
-                        originalLink: "https://indianexpress.com/article/explained/explained-health/antimicrobial-resistance-india-action-plan-update-9083456/",
-                        wikiLink: "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
-                        context: "A new Lancet study warns that AMR (Antimicrobial Resistance) could cause 2 million deaths annually in India by 2050 if antibiotic misuse is not curbed.",
+                        topic: "Parliamentary Functioning",
+                        originalLink: "https://forumias.com/blog/must-read-news-daily-current-affairs-articles-2-december-2025/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Parliament_of_India",
+                        context: "As the Winter Session begins, concerns are raised about the decline in parliamentary deliberation, with frequent disruptions and the bypassing of standing committees.",
                         keyPoints: [
-                            "<strong>Over-prescription:</strong> Rampant use of antibiotics for viral fevers and minor ailments is accelerating resistance.",
-                            "<strong>Poultry & Dairy:</strong> Unregulated use of antibiotics as growth promoters in animals enters the human food chain.",
-                            "<strong>Red Line Campaign:</strong> The need to enforce the 'Red Line' on antibiotic packs to prevent over-the-counter sales without prescriptions."
+                            "<strong>Erosion of Scrutiny:</strong> Fewer bills are being referred to Parliamentary Standing Committees, leading to flawed legislation.",
+                            "<strong>Disruption as Strategy:</strong> Political polarization has turned Parliament into a site of protest rather than debate, reducing its productivity.",
+                            "<strong>Accountability Deficit:</strong> The decline in Question Hour and substantive debates weakens the legislature's ability to hold the executive accountable."
                         ],
-                        wayForward: ["Strengthen the National Action Plan on AMR (NAP-AMR).", "Regulate the pharmaceutical effluent discharge in water bodies."],
-                        fodder: { term: "Superbugs", campaign: "Red Line Campaign" },
-                        question: "Antimicrobial Resistance (AMR) is termed a 'Silent Pandemic'. Analyze the drivers of AMR in India and the policy measures required to mitigate this public health threat. (10 Marks, 150 Words)",
-                        deepDive: `<p>The discovery of Penicillin by Alexander Fleming in 1928 revolutionized medicine, but Fleming himself warned of resistance if used irresponsibly. In India, the AMR crisis has brewed over decades due to a combination of poor public health regulation, easy over-the-counter access to potent drugs, and a lack of sanitation which spreads infections. The Chennai Declaration of 2012 was a landmark moment where medical societies in India came together to formulate a roadmap to tackle AMR, leading to the National Action Plan in 2017, though enforcement remains weak.</p>`
-                    },
-                    {
-                        title: "India-UK FTA: The Migration Hurdle",
-                        source: "The Hindu",
-                        paper: "GS Paper 2",
-                        topic: "International Relations",
-                        originalLink: "https://www.thehindu.com/business/Economy/india-uk-fta-talks-enter-final-stage-migration-rules-key/article70358901.ece",
-                        wikiLink: "https://en.wikipedia.org/wiki/India%E2%80%93United_Kingdom_Free_Trade_Agreement",
-                        context: "Negotiations for the India-UK Free Trade Agreement (FTA) have entered the final lap, but the UK's tightening of visa norms for dependents is a major sticking point for India's service sector demands.",
-                        keyPoints: [
-                            "<strong>Mode 4 Access:</strong> India demands easier movement for professionals (IT, healthcare) under Mode 4 of GATS.",
-                            "<strong>Goods vs. Services:</strong> While goods tariffs (whisky, automobiles) are largely agreed upon, services liberalization remains asymmetric.",
-                            "<strong>Social Security:</strong> India is pressing for a Social Security Agreement (SSA) to prevent double taxation of Indian professionals in the UK."
-                        ],
-                        wayForward: ["Decouple short-term business visas from long-term immigration debates.", "Finalize the SSA to boost service exports."],
-                        fodder: { agreement: "Broad-based Trade and Investment Agreement (BTIA)", term: "Mode 4 (Movement of Natural Persons)" },
-                        question: "Services exports are India's strength in trade negotiations. Discuss the challenges India faces in securing favorable terms for 'Movement of Natural Persons' in FTAs with developed nations. (15 Marks, 250 Words)",
-                        deepDive: `<p>India's trade relationship with the UK has evolved from a colonial extraction model to a modern strategic partnership. Since the economic liberalization of 1991, India has sought to leverage its 'demographic dividend' by exporting skilled labor. However, Western nations, including the UK, have historically been protective of their labor markets while pushing for access to India's goods market. The Brexit vote in 2016 shifted London's focus towards the Commonwealth, reopening the door for a bilateral FTA that had previously been stalled under the wider EU-India negotiations.</p>`
+                        wayForward: ["Mandate committee scrutiny for all major bills.", "Empower the Speaker to enforce a strict code of conduct."],
+                        fodder: { data: "Only ~13% of bills referred to committees (17th Lok Sabha).", concept: "Checks and Balances" },
+                        question: "The Parliament is the epicenter of executive accountability. Critically analyze the reasons for the recent 'retreat of the legislature' and its implications. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The Indian Parliament, envisaged as the 'Grand Inquest of the Nation', is facing a crisis of credibility. The decline in sitting days and the passing of bills without debate undermines the principle of executive accountability.</p>
+                            
+                            <p><strong>Body: Reasons for Retreat</strong></p>
+                            <ul>
+                                <li><strong>Anti-Defection Law (10th Schedule):</strong> While curbing instability, it has silenced individual dissent. MPs vote on party lines, reducing debate to a formality.</li>
+                                <li><strong>Bypassing Committees:</strong> In the 17th Lok Sabha, referrals to Standing Committees dropped to ~13% (from 71% in the 15th). This removes the expert, non-partisan scrutiny essential for quality law-making.</li>
+                                <li><strong>Disruption over Discussion:</strong> Polarization has made 'stalling the house' a primary political tool, reducing the time available for holding the executive accountable via Question Hour.</li>
+                            </ul>
+
+                            <p><strong>Implications:</strong> This leads to 'hasty legislation' (prone to litigation), weakened checks and balances, and a disconnect between the electors and the elected.</p>
+                            
+                            <p><strong>Conclusion:</strong> Reforms like the 'NCRWC' recommendation to fix minimum sitting days and mandatory committee referrals are urgent to restore the sanctity of the House.</p>
+                        `,
+                        deepDive: `<p>The Indian Parliament was envisioned as the 'Grand Inquest of the Nation'. In the early decades (1950s-70s), prolonged debates and high committee referrals were the norm. However, the anti-defection law (10th Schedule), while curbing horse-trading, has arguably stifled individual dissent and debate within parties. The trend of passing bills via 'voice vote' amidst din, without discussion, challenges the deliberative democracy model, reducing Parliament to a mere rubber stamp for the executive's legislative agenda.</p>`
                     }
                 ]
             },
@@ -713,6 +790,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
