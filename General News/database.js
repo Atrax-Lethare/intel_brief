@@ -68,6 +68,23 @@
                 ],
                 stat: { label: "Exam Start", value: "Feb 15", desc: "The official start date for CBSE Class 10 and 12 Board Exams 2026." }
             },
+                'International': {
+                date: 'December 3, 2025',
+                lead: {
+                    headline: "Global Tensions Rise: US-China Trade Talks Stall",
+                    summary: "High-level trade negotiations between the US and China have hit a roadblock over intellectual property rights and tariff structures. Markets worldwide reacted nervously, with Asian indices closing lower amid fears of a renewed trade war.",
+                    link: "https://www.reuters.com/world/us/us-china-trade-talks-stall-2025-12-03/"
+                },
+                bullets: [
+                    { tag: "Conflict", text: "Ceasefire talks in the Middle East show signs of progress, though sporadic clashes continue.", link: "https://www.aljazeera.com/news/2025/12/3/middle-east-ceasefire-updates" },
+                    { tag: "Climate", text: "EU proposes stricter carbon border tax, drawing criticism from developing nations at COP30.", link: "https://www.bbc.com/news/science-environment-20251203" },
+                    { tag: "Tech", text: "EU passes landmark AI Act to regulate high-risk artificial intelligence applications.", link: "https://www.europarl.europa.eu/news/en/press-room/20251203/eu-ai-act-passed" },
+                    { tag: "Space", text: "Russia announces plans for a new independent space station by 2027.", link: "https://tass.com/science/20251203" },
+                    { tag: "Politics", text: "UK Prime Minister faces leadership challenge amid economic downturn concerns.", link: "https://www.theguardian.com/politics/2025/dec/03/uk-pm-leadership-challenge" },
+                    { tag: "Health", text: "New variant of concern identified in South America; WHO urges enhanced surveillance.", link: "https://www.who.int/news/item/03-12-2025-new-variant-alert" }
+                ],
+                stat: { label: "Global Trade", value: "-2.5%", desc: "Projected decline in global trade volume for Q4 2025 due to geopolitical frictions." }
+            },
             'Medical': {
                 date: 'December 3, 2025',
                 lead: {
@@ -154,6 +171,7 @@
                 stat: { label: "Tests", value: "80,000", desc: "Number of tests completed by ISRO to certify systems for the Gaganyaan mission." }
             }
         };
+
 
 
 
