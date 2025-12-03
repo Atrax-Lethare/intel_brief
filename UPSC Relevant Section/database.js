@@ -1,5 +1,100 @@
         // --- DATA SECTION ---
 const articlesDB = {
+            '2025-12-03': {
+                dateLabel: 'December 3, 2025',
+                articles: [
+                    {
+                        title: "The Delimitation Dilemma: North vs. South",
+                        source: "The Hindu Editorial",
+                        paper: "GS Paper 2",
+                        topic: "Parliament & Federalism",
+                        originalLink: "https://www.thehindu.com/opinion/lead/the-shadow-of-delimitation-on-indian-federalism/article70351122.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Delimitation_Commission_of_India",
+                        context: "With the Census 2025 underway, concerns are mounting among Southern states regarding the upcoming Delimitation of Lok Sabha seats, which could penalize them for successful population control measures.",
+                        keyPoints: [
+                            "<strong>Demographic Divergence:</strong> Southern states have achieved replacement level fertility (TFR < 2.1), while populous Northern states continue to grow, leading to a potential shift in political power.",
+                            "<strong>Constitutional Freeze:</strong> The 84th Amendment Act (2001) froze the number of Lok Sabha seats based on the 1971 Census until the first census after 2026.",
+                            "<strong>Federal Friction:</strong> A redistribution based strictly on population could reduce the representation of Tamil Nadu and Kerala, disrupting the federal balance."
+                        ],
+                        wayForward: ["Consider the '1971 population' as a permanent baseline for seat allocation.", "Strengthen the Rajya Sabha to protect the interests of smaller states."],
+                        fodder: { article: "Article 82 (Delimitation Act)", data: "TFR of Bihar (3.0) vs Kerala (1.8)" },
+                        question: "The upcoming delimitation exercise poses a serious challenge to India's federal stability. Discuss the constitutional history of the freeze on seats and suggest a way forward. (15 Marks, 250 Words)",
+                        deepDive: `<p>The process of delimitation, or redrawing electoral boundaries, is mandated by Article 82 of the Constitution to ensure equal representation for equal population segments. Historically, delimitation commissions were set up in 1952, 1963, and 1973. However, during the Emergency in 1976, the Indira Gandhi government passed the 42nd Amendment, freezing the number of Lok Sabha seats at the 1971 Census level to ensure that states implementing family planning programs were not politically penalized. This freeze was extended for another 25 years by the Atal Bihari Vajpayee government through the 84th Amendment Act in 2001, pushing the reckoning date to post-2026, creating the current impending crisis.</p>`
+                    },
+                    {
+                        title: "Fiscal Shift: The Return of 'Sin Tax' Levies",
+                        source: "The Indian Express",
+                        paper: "GS Paper 3",
+                        topic: "Government Budgeting",
+                        originalLink: "https://indianexpress.com/article/business/economy/gst-council-mulls-specific-levies-on-sin-goods-post-cess-expiry-9081234/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Sin_tax",
+                        context: "As the GST Compensation Cess era ends, the Centre is proposing specific excise duties or new cesses on 'sin goods' like tobacco and aerated drinks to maintain revenue flows for public health infrastructure.",
+                        keyPoints: [
+                            "<strong>Revenue Gap:</strong> The expiry of the Compensation Cess creates a fiscal hole. New levies aim to replace this without disrupting the GST rate slabs.",
+                            "<strong>Pigovian Logic:</strong> Taxing demerit goods aligns with the Pigovian principle of taxing negative externalities (health costs) to discourage consumption.",
+                            "<strong>Centre-State Dynamics:</strong> Unlike GST which is shared, specific cesses might be retained entirely by the Centre, raising concerns about the divisible pool."
+                        ],
+                        wayForward: ["Ensure transparency in the utilization of the new health cess.", "Bring petroleum and alcohol under the GST ambit for a truly unified market."],
+                        fodder: { term: "Pigovian Tax", concept: "Divisible Pool of Taxes" },
+                        question: "Explain the rationale behind 'Sin Taxes'. How does the shift from GST Compensation Cess to specific levies impact the fiscal relationship between the Centre and States? (10 Marks, 150 Words)",
+                        deepDive: `<p>The concept of taxing 'sin goods' or demerit goods dates back to early economic theories of correcting market failures where the consumption of a good harms society (negative externality). In India, the GST regime introduced in 2017 subsumed various central and state surcharges into a single Compensation Cess to guarantee state revenues for five years. Historically, central excise duties on tobacco and petroleum have been major tools for the Union government to manage its fiscal deficit, often bypassing the sharable pool of taxes, a practice that has frequently been a point of contention in India's fiscal federalism history.</p>`
+                    },
+                    {
+                        title: "AI in Policing: The 'Smart' Transformation",
+                        source: "The Hindu",
+                        paper: "GS Paper 3 / GS Paper 4",
+                        topic: "Internal Security & Ethics",
+                        originalLink: "https://www.thehindu.com/news/national/pm-modi-calls-for-ai-integration-in-policing-at-dgp-conference/article70355678.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Predictive_policing",
+                        context: "At the DGPs conference, the PM called for transforming the police from a 'force' to a 'service' using AI for predictive policing while warning against the potential for algorithmic bias.",
+                        keyPoints: [
+                            "<strong>Predictive Policing:</strong> Using AI to analyze crime data and predict hotspots, optimizing patrol deployment.",
+                            "<strong>Facial Recognition:</strong> Deployment of systems like FRS (Facial Recognition System) for tracking criminals, though privacy concerns persist.",
+                            "<strong>Ethical AI:</strong> The risk of AI models replicating historical biases against marginalized communities in crime mapping."
+                        ],
+                        wayForward: ["Establish a 'Police Technology Mission' for standardization.", "Implement strict oversight protocols for AI usage in law enforcement."],
+                        fodder: { initiative: "CCTNS (Crime and Criminal Tracking Network & Systems)", risk: "Algorithmic Bias" },
+                        question: "The integration of AI in policing offers efficiency but raises ethical concerns. Discuss the potential of 'Smart Policing' while highlighting the safeguards needed against misuse. (15 Marks, 250 Words)",
+                        deepDive: `<p>The modernization of the Indian police force has been a slow process, rooted in the colonial Police Act of 1861 which prioritized control over service. The push for technology began earnestly with the National Police Commission reports (1977-81) and later the creation of the National Crime Records Bureau (NCRB) in 1986 to digitize crime data. The CCTNS project, approved in 2009 after the Mumbai terror attacks, marked the first major step towards a centralized digital infrastructure, laying the groundwork for today's AI and big data applications in internal security.</p>`
+                    },
+                    {
+                        title: "Antimicrobial Resistance: The 'Silent Pandemic'",
+                        source: "The Indian Express",
+                        paper: "GS Paper 2",
+                        topic: "Health Issues",
+                        originalLink: "https://indianexpress.com/article/explained/explained-health/antimicrobial-resistance-india-action-plan-update-9083456/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+                        context: "A new Lancet study warns that AMR (Antimicrobial Resistance) could cause 2 million deaths annually in India by 2050 if antibiotic misuse is not curbed.",
+                        keyPoints: [
+                            "<strong>Over-prescription:</strong> Rampant use of antibiotics for viral fevers and minor ailments is accelerating resistance.",
+                            "<strong>Poultry & Dairy:</strong> Unregulated use of antibiotics as growth promoters in animals enters the human food chain.",
+                            "<strong>Red Line Campaign:</strong> The need to enforce the 'Red Line' on antibiotic packs to prevent over-the-counter sales without prescriptions."
+                        ],
+                        wayForward: ["Strengthen the National Action Plan on AMR (NAP-AMR).", "Regulate the pharmaceutical effluent discharge in water bodies."],
+                        fodder: { term: "Superbugs", campaign: "Red Line Campaign" },
+                        question: "Antimicrobial Resistance (AMR) is termed a 'Silent Pandemic'. Analyze the drivers of AMR in India and the policy measures required to mitigate this public health threat. (10 Marks, 150 Words)",
+                        deepDive: `<p>The discovery of Penicillin by Alexander Fleming in 1928 revolutionized medicine, but Fleming himself warned of resistance if used irresponsibly. In India, the AMR crisis has brewed over decades due to a combination of poor public health regulation, easy over-the-counter access to potent drugs, and a lack of sanitation which spreads infections. The Chennai Declaration of 2012 was a landmark moment where medical societies in India came together to formulate a roadmap to tackle AMR, leading to the National Action Plan in 2017, though enforcement remains weak.</p>`
+                    },
+                    {
+                        title: "India-UK FTA: The Migration Hurdle",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "International Relations",
+                        originalLink: "https://www.thehindu.com/business/Economy/india-uk-fta-talks-enter-final-stage-migration-rules-key/article70358901.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/India%E2%80%93United_Kingdom_Free_Trade_Agreement",
+                        context: "Negotiations for the India-UK Free Trade Agreement (FTA) have entered the final lap, but the UK's tightening of visa norms for dependents is a major sticking point for India's service sector demands.",
+                        keyPoints: [
+                            "<strong>Mode 4 Access:</strong> India demands easier movement for professionals (IT, healthcare) under Mode 4 of GATS.",
+                            "<strong>Goods vs. Services:</strong> While goods tariffs (whisky, automobiles) are largely agreed upon, services liberalization remains asymmetric.",
+                            "<strong>Social Security:</strong> India is pressing for a Social Security Agreement (SSA) to prevent double taxation of Indian professionals in the UK."
+                        ],
+                        wayForward: ["Decouple short-term business visas from long-term immigration debates.", "Finalize the SSA to boost service exports."],
+                        fodder: { agreement: "Broad-based Trade and Investment Agreement (BTIA)", term: "Mode 4 (Movement of Natural Persons)" },
+                        question: "Services exports are India's strength in trade negotiations. Discuss the challenges India faces in securing favorable terms for 'Movement of Natural Persons' in FTAs with developed nations. (15 Marks, 250 Words)",
+                        deepDive: `<p>India's trade relationship with the UK has evolved from a colonial extraction model to a modern strategic partnership. Since the economic liberalization of 1991, India has sought to leverage its 'demographic dividend' by exporting skilled labor. However, Western nations, including the UK, have historically been protective of their labor markets while pushing for access to India's goods market. The Brexit vote in 2016 shifted London's focus towards the Commonwealth, reopening the door for a bilateral FTA that had previously been stalled under the wider EU-India negotiations.</p>`
+                    }
+                ]
+            },
             '2025-12-02': {
                 dateLabel: 'December 2, 2025',
                 articles: [
@@ -618,6 +713,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
