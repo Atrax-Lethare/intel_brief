@@ -255,6 +255,27 @@
             });
         }
 
+        function toggleAnswer(btn) {
+            const container = btn.nextElementSibling;
+            const isHidden = container.style.display === 'none' || container.style.display === '';
+            
+            // Close all other answers
+            document.querySelectorAll('.model-answer-container').forEach(c => c.style.display = 'none');
+            document.querySelectorAll('.btn-answer svg').forEach(s => s.style.transform = 'rotate(0deg)');
+            
+            if (isHidden) {
+                container.style.display = 'block';
+                container.classList.add('active');
+                btn.querySelector('svg').style.transform = 'rotate(180deg)';
+                btn.querySelector('span').textContent = 'Hide Model Answer';
+            } else {
+                container.style.display = 'none';
+                container.classList.remove('active');
+                btn.querySelector('svg').style.transform = 'rotate(0deg)';
+                btn.querySelector('span').textContent = 'Show Model Answer';
+            }
+        }
+
         // --- Render Logic ---
         function renderArticles(dataKey) {
             const container = document.getElementById('articlesContainer');
@@ -283,7 +304,19 @@
                             <div class="info-box box-green"><span class="box-label">Way Forward</span><ul class="no-bullet-list">${article.wayForward.map(pt => `<li><span class="bullet-icon">•</span><span>${pt}</span></li>`).join('')}</ul></div>
                             <div class="info-box box-amber"><span class="box-label">Mains Fodder</span><div>${Object.entries(article.fodder).map(([key, val]) => `<div class="key-val-row"><span class="key-label">${key}:</span><span>${val}</span></div>`).join('')}</div></div>
                         </div>
-                        <div class="question-box"><span class="content-label" style="color:var(--accent-blue);">Practice Question</span><p class="question-text">"${article.question}"</p></div>
+                        <div class="question-box">
+                                <span class="content-label" style="color:var(--accent-blue);">Practice Question</span><p class="question-text">"${article.question}"</p>
+                                <!-- MODEL ANSWER BUTTON -->
+                                    <button class="btn-answer" onclick="toggleAnswer(this)">
+                                        <span>Show Model Answer</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transition: transform 0.2s"><path d="m6 9 6 6 6-6"/></svg>
+                                    </button>
+                                    
+                                    <!-- HIDDEN ANSWER CONTAINER -->
+                                    <div class="model-answer-container">
+                                        ${article.answer}
+                                    </div>
+                        </div>
                         <div class="card-actions">
                             <button class="btn-deep-dive" onclick="openDeepDive('${safeTitle}', articlesDB['${dataKey}'].articles[${index}].deepDive)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> Read Deep Dive
@@ -336,4 +369,5 @@
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalDirect(); });
 
         });
+
 
