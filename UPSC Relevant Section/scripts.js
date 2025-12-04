@@ -348,7 +348,6 @@
             
             // Restore highlights after render
             setTimeout(() => restoreHighlights(dataKey), 100);
-        }
 
         // --- Modal ---
         function openDeepDive(title, content) {
@@ -381,6 +380,7 @@
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalDirect(); });
 
         });
+
 
 
 
