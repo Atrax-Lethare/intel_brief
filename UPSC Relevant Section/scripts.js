@@ -339,8 +339,8 @@
                         <p style="font-size:small; color:grey">----------</p>
                         <p style="font-size:small; color:grey">
                                 <i>
-                                        Sometimes the link might not work due to continuously changing news URL's. <br>
-                                        If that is the case, click on this search button. You will be redirected to a a page where you can choose a relevant news page. 👍
+                                        Sometimes the original source link might not work due to continuously changing news URL's. <br>
+                                        If that is the case, click on the search button. You will be redirected to a page where you can choose a relevant news page to read further. 👍
                                 </i>
                         </p>
                     </div>`;
@@ -389,6 +389,7 @@
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalDirect(); });
 
         });
+
 
 
 
