@@ -4,154 +4,161 @@ const articlesDB = {
                 dateLabel: 'December 4, 2025',
                 articles: [
                     {
-                        title: "Uniform Civil Code: The Polygamy Debate",
+                        title: "India's Innovation Challenge: Bridging the R&D Gap",
                         source: "The Hindu",
-                        paper: "GS Paper 2",
-                        topic: "Indian Constitution & Personal Laws",
-                        originalLink: "https://www.thehindu.com/news/national/assam-polygamy-ban-bill-introduced-assembly-ucc-debate/article67945678.ece",
-                        wikiLink: "https://en.wikipedia.org/wiki/Uniform_Civil_Code",
-                        context: "Following Uttarakhand, Assam has introduced a Bill to ban polygamy, intensifying the national debate on a Uniform Civil Code (UCC). Critics argue this piecemeal approach targets specific communities, while the government cites gender justice.",
+                        paper: "GS Paper 3",
+                        topic: "Science & Technology / Economic Growth",
+                        originalLink: "https://www.thehindu.com/opinion/op-ed/india-needs-research-pipelines/article70341873.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Science_and_technology_in_India",
+                        context: "An editorial highlights the urgent need for India to boost its private sector R&D investment, noting that successful economies align firm investments with university strengths to create innovation pipelines.",
                         keyPoints: [
-                            "<strong>Article 14 & 15:</strong> The move is framed as enforcing equality and non-discrimination against women, who suffer in polygamous unions.",
-                            "<strong>Article 25:</strong> Opponents argue it infringes on the freedom to practice religion, as certain personal laws permit polygamy.",
-                            "<strong>Tribal Exemption:</strong> Unlike Uttarakhand, Assam's proposed law debates the inclusion of tribal communities, raising questions about Sixth Schedule protections."
+                            "<strong>Low R&D Intensity:</strong> India's R&D expenditure is heavily government-dependent, unlike developed nations where the private sector leads.",
+                            "<strong>Structural Weakness:</strong> The lack of consistent partnership between academia and industry results in a 'valley of death' for research commercialization.",
+                            "<strong>Policy Shift:</strong> Moving from CSR-based funding to long-term research grants and shared infrastructure is critical for scalable industrial outcomes."
                         ],
-                        wayForward: ["Wait for the Law Commission's final report on UCC.", "Focus on codifying gender-just reforms within personal laws first."],
-                        fodder: { case: "Sarla Mudgal Case (1995)", article: "Article 44 (DPSP)" },
-                        question: "The push for a Uniform Civil Code often clashes with the right to religious freedom. Discuss the constitutional validity of state-level bans on polygamy. (15 Marks, 250 Words)",
+                        wayForward: ["Establish clear sector-specific R&D targets.", "Strengthen co-funded research models with shared IP frameworks."],
+                        fodder: { stat: "Private sector contributes <40% to India's GERD.", institution: "National Research Foundation (NRF)" },
+                        question: "India's ambition to become a global innovation hub is constrained by low private sector participation in R&D. Analyze the structural bottlenecks and suggest policy reforms. (15 Marks, 250 Words)",
                         answer: `
-                            <p><strong>Introduction:</strong> Article 44 of the Directive Principles advises the State to secure a Uniform Civil Code (UCC). However, personal laws (marriage, divorce) fall under the Concurrent List, allowing states to legislate. The Assam Bill banning polygamy reignites the conflict between 'Gender Justice' (Article 14) and 'Religious Freedom' (Article 25).</p>
+                            <p><strong>Introduction:</strong> India's Gross Expenditure on R&D (GERD) has stagnated at ~0.7% of GDP for two decades, significantly lower than the global average of 1.8%. While India ranks high in scientific publications, its translation into industrial innovation is weak due to the dominance of public sector funding (>60%).</p>
                             
-                            <p><strong>Body: Constitutional Validity</strong></p>
+                            <p><strong>Body: Structural Bottlenecks</strong></p>
                             <ul>
-                                <li><strong>Right to Equality:</strong> The Supreme Court in cases like <em>Khursheed Ahmad Khan</em> has held that polygamy is not an essential religious practice. Thus, banning it does not violate Article 25 if it serves public order, morality, or health.</li>
-                                <li><strong>State's Competence:</strong> Under Entry 5 of the Concurrent List, states can amend personal laws with Presidential assent. Hence, a state-level ban is constitutionally permissible.</li>
-                                <li><strong>Tribal Rights:</strong> The challenge lies in the Sixth Schedule areas where customary laws are protected. A blanket ban might face legal hurdles if it overrides these constitutional protections without consultation.</li>
+                                <li><strong>Risk Aversion:</strong> Indian corporate culture often prioritizes technology import/transfer over indigenous R&D due to the high risk and long gestation period of deep-tech innovation.</li>
+                                <li><strong>The 'Valley of Death':</strong> A disconnect exists between academic research (TRL 1-3) and industrial application (TRL 7-9). Promising lab prototypes fail to reach the market due to a lack of translational funding.</li>
+                                <li><strong>Weak IPR Ecosystem:</strong> Delays in patent processing and weak enforcement of intellectual property rights discourage private investment in novel technologies.</li>
                             </ul>
 
-                            <p><strong>Conclusion:</strong> While legally sound, a piecemeal approach creates a fragmented legal landscape. A national consensus on a gender-just UCC, as originally envisioned by the Constituent Assembly, is the ideal path forward.</p>
+                            <p><strong>Policy Reforms:</strong></p>
+                            <ul>
+                                <li><strong>Incentivize Outcomes:</strong> Shift from input-based tax deductions (which are often misused) to output-based incentives like tax credits for successful patents or commercialized products.</li>
+                                <li><strong>Unlock NRF:</strong> The National Research Foundation should prioritize matching grants where the government matches private investment 1:1 for strategic sectors like Green Hydrogen and AI.</li>
+                                <li><strong>Cluster Approach:</strong> Develop 'Innovation Clusters' around IITs/IISERs where industry can access shared high-end infrastructure, reducing capital costs.</li>
+                            </ul>
+                            
+                            <p><strong>Conclusion:</strong> For 'Viksit Bharat 2047', India must transition from a 'Frugal Innovation' mindset to 'Deep Tech' leadership. Empowering the private sector to lead R&D is not just an economic imperative but a strategic necessity.</p>
                         `,
-                        deepDive: `<p>The debate on a Uniform Civil Code dates back to the Constituent Assembly debates (1948-49), where Dr. B.R. Ambedkar strongly advocated for it but faced opposition from conservative religious groups. As a compromise, it was placed in the Directive Principles (Article 44) rather than Fundamental Rights. Historically, while the Hindu Code Bill (1955-56) reformed Hindu personal laws, other personal laws remained largely untouched until judicial interventions like the Shah Bano case (1985) and Triple Talaq judgment (2017).</p>`
+                        deepDive: `<p>Historically, India's R&D ecosystem has been driven by public sector units like ISRO, DRDO, and CSIR. Post-1991 liberalization, while service sectors boomed, the manufacturing R&D culture remained risk-averse, preferring technology transfer over indigenous development. The Science, Technology, and Innovation Policy (STIP) 2013 set a target of 2% GDP for R&D, a goal that remains unmet as Gross Expenditure on R&D (GERD) has stagnated around 0.7% for nearly two decades.</p>`
                     },
                     {
-                        title: "Diluting Environmental Safeguards: A Policy Shift",
+                        title: "Sanchar Saathi Mandate: Security vs. Privacy",
+                        source: "The Hindu / Indian Express",
+                        paper: "GS Paper 3 / GS Paper 2",
+                        topic: "Cyber Security & Governance",
+                        originalLink: "https://www.thehindu.com/sci-tech/technology/sanchar-saathi-dot-order-to-phone-makers-to-pre-install-app-gets-significant-pushback/article67934567.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Mass_surveillance_in_India",
+                        context: "The Department of Telecommunications (DoT) has ordered smartphone makers to pre-install the 'Sanchar Saathi' security framework to curb cyber fraud, sparking a debate on surveillance and user choice.",
+                        keyPoints: [
+                            "<strong>Fraud Prevention:</strong> The move aims to tackle the rising menace of digital arrests and SIM swap frauds by ensuring device authenticity.",
+                            "<strong>Privacy Concerns:</strong> Critics argue that mandatory pre-installation of government apps could create backdoors for state surveillance.",
+                            "<strong>Democracy Argument:</strong> Opposition leaders term the compulsion 'troubling' in a democracy, advocating for optional adoption based on trust."
+                        ],
+                        wayForward: ["Ensure the app code is open-source for transparency.", "Implement the Digital India Act with robust privacy safeguards."],
+                        fodder: { portal: "Sanchar Saathi", concern: "Mass Surveillance" },
+                        question: "While digital security is paramount, mandatory imposition of government applications raises privacy concerns. Discuss the balance between national security and individual privacy rights in the digital age. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The 'Sanchar Saathi' mandate highlights the classic tension between the State's duty to protect citizens from cyber-fraud (National Security) and the citizen's Right to Privacy (Article 21, Puttaswamy Judgement).</p>
+                            
+                            <p><strong>Body: The Balancing Act</strong></p>
+                            <ul>
+                                <li><strong>Security Imperative:</strong> With financial fraud costing citizens crores (e.g., 'Digital Arrests'), the state argues that device-level security checks are a necessary public good, similar to mandatory seatbelts.</li>
+                                <li><strong>Privacy Risks:</strong> Mandatory pre-installation of closed-source government apps raises fears of 'State Surveillance' and data harvesting without consent. It violates the principle of 'informational self-determination'.</li>
+                                <li><strong>Function Creep:</strong> There is a risk that an app designed for fraud prevention could be repurposed for tracking dissent or profiling citizens if legal safeguards are absent.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> Security cannot come at the cost of liberty. The government should adopt a 'Privacy by Design' approach, making the app code open-source for audit. Furthermore, as per the Supreme Court's proportionality test, less intrusive measures (like voluntary adoption incentives) should be exhausted before mandates.</p>
+                        `,
+                        deepDive: `<p>The Sanchar Saathi portal was launched to empower mobile subscribers, strengthen security, and increase awareness about citizen-centric initiatives. It integrates the CEIR (Central Equipment Identity Register) for blocking lost phones. However, the debate on mandatory pre-installation echoes the Aadhaar privacy judgment (puttaswamy case), where the Supreme Court ruled that proportionality and necessity must guide any state intrusion into user privacy.</p>`
+                    },
+                    {
+                        title: "Urban Air Quality: The 'Northern' Trap",
                         source: "The Indian Express",
                         paper: "GS Paper 3",
-                        topic: "Environment & EIA",
-                        originalLink: "https://indianexpress.com/article/opinion/columns/environmental-regulation-forest-conservation-act-amendment-analysis-9098123/",
-                        wikiLink: "https://en.wikipedia.org/wiki/Environmental_impact_assessment",
-                        context: "Recent amendments to the Forest Conservation Act and EIA norms are seen as weakening the 'precautionary principle' to fast-track infrastructure projects, raising concerns about ecological governance.",
+                        topic: "Environment & Pollution",
+                        originalLink: "https://indianexpress.com/article/explained/urban-indian-city-safe-air-quality-10391338/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Air_pollution_in_India",
+                        context: "A Climate Trends analysis shows that Northern Indian cities like Delhi and Lucknow have consistently failed to meet safe air quality standards for a decade, unlike their southern counterparts.",
                         keyPoints: [
-                            "<strong>Forest Redefinition:</strong> The new Act limits the definition of 'forest' to only notified areas, potentially opening up vast tracts of deemed forests for development.",
-                            "<strong>Strategic Exemptions:</strong> Projects within 100km of borders are exempted from clearance, which covers ecologically fragile zones in the Himalayas.",
-                            "<strong>Post-Facto Clearance:</strong> The trend of regularizing violations by paying fines undermines the deterrence of environmental laws."
+                            "<strong>Geographical Disadvantage:</strong> The landlocked Indo-Gangetic Plain acts as a bowl, trapping pollutants due to the Himalayas, unlike coastal cities benefiting from sea breezes.",
+                            "<strong>Winter Inversion:</strong> The phenomenon of 'atmospheric lid' in winter prevents vertical mixing of air, exacerbating the crisis.",
+                            "<strong>Urban Density:</strong> 'Surface roughness' from dense construction slows down wind speeds, further reducing dispersion of local emissions."
                         ],
-                        wayForward: ["Restore the 'Godavarman' definition of forests.", "Strengthen the National Green Tribunal (NGT) with more benches."],
-                        fodder: { act: "Forest (Conservation) Amendment Act, 2023", principle: "Precautionary Principle" },
-                        question: "Critically analyze the recent changes in India's environmental regulatory framework. Do they compromise ecological security for economic growth? (10 Marks, 150 Words)",
+                        wayForward: ["Adopt 'Airshed Management' rather than city-specific plans.", "Strict enforcement of dust control measures in construction."],
+                        fodder: { concept: "Winter Inversion", report: "Climate Trends 10-Year Assessment" },
+                        question: "Geography plays a significant role in India's air pollution crisis, but policy failures cannot be ignored. Analyze the reasons for the persistent poor air quality in Northern India. (10 Marks, 150 Words)",
                         answer: `
-                            <p><strong>Introduction:</strong> India's environmental governance is anchored in the 'Precautionary Principle' and 'Public Trust Doctrine'. However, recent amendments aim to reduce 'compliance burden' to facilitate Ease of Doing Business, often at an ecological cost.</p>
+                            <p><strong>Introduction:</strong> A decade-long analysis reveals a stark North-South divide in India's air quality. While geography (landlocked plains vs. coastal breeze) sets the baseline, the crisis in North India is exacerbated by policy inertia and governance failures.</p>
                             
-                            <p><strong>Body: Impact of Changes</strong></p>
+                            <p><strong>Body: Causes of Persistent Pollution</strong></p>
                             <ul>
-                                <li><strong>Loss of Protection:</strong> By narrowing the definition of 'forests' to government records only, the 2023 Amendment excludes significant green cover (like sacred groves) protected under the 1996 <em>Godavarman</em> judgment.</li>
-                                <li><strong>Bypassing Scrutiny:</strong> Exempting strategic projects in border areas removes the Environmental Impact Assessment (EIA) safeguard in the fragile Himalayas, increasing landslide risks (e.g., Joshimath/Silkyara tunnel).</li>
-                                <li><strong>Monetization of Violations:</strong> Moving from criminal penalties to civil penalties for environmental violations risks treating pollution as a 'cost of business' rather than a crime.</li>
+                                <li><strong>Meteorological Trap:</strong> The Indo-Gangetic Plain acts as a natural bowl. In winter, 'Temperature Inversion' creates a lid, trapping pollutants near the ground. Low wind speeds prevent dispersion.</li>
+                                <li><strong>Policy Failure (NCAP):</strong> The National Clean Air Programme focused on city-specific plans (micro-level) but ignored the regional 'Airshed' reality. Pollution from Punjab farm fires flows freely into Delhi; city boundaries are irrelevant to air.</li>
+                                <li><strong>Unchecked Sources:</strong> While vehicular emission norms (BS-VI) improved, sources like biomass burning for heating, construction dust, and industrial emissions in peri-urban areas remain largely unregulated.</li>
                             </ul>
 
-                            <p><strong>Conclusion:</strong> Sustainable development requires a balance. Diluting safeguards may boost short-term GDP but risks long-term climate resilience, violating the constitutional mandate of Article 48A.</p>
+                            <p><strong>Conclusion:</strong> Blaming geography is not a solution. A shift to 'Airshed Management'—a unified authority for the entire IGP region with the power to enforce bans across state lines—is the only viable long-term solution.</p>
                         `,
-                        deepDive: `<p>India's environmental framework was largely shaped in the aftermath of the Bhopal Gas Tragedy (1984), leading to the Environment Protection Act, 1986. The landmark <em>T.N. Godavarman Thirumulpad</em> judgment (1996) by the Supreme Court expanded the definition of 'forest' to include any area resembling a forest, regardless of ownership. This judicial activism filled the gap in executive inaction. The recent legislative changes effectively seek to overturn this judicial interpretation, reverting to a narrower, record-based definition used in the colonial Forest Act of 1927.</p>`
+                        deepDive: `<p>The Indo-Gangetic Plain has historically been prone to fog and haze due to its topography and meteorology. However, the 'Great Smog' phenomenon has intensified since the 2000s due to the shift in cropping patterns (late paddy sowing) and rapid urbanization. The National Clean Air Programme (NCAP) launched in 2019 was the first acknowledgment of the need for city-specific reduction targets, but it often overlooks the regional 'airshed' nature of the problem.</p>`
                     },
                     {
-                        title: "Colombo Security Conclave: Securing the Indian Ocean",
+                        title: "Parliament Winter Session: The Deadlock Continues",
                         source: "The Hindu",
                         paper: "GS Paper 2",
-                        topic: "International Relations",
-                        originalLink: "https://www.thehindu.com/news/national/nsa-ajit-doval-colombo-security-conclave-mauritius-meeting/article70367890.ece",
-                        wikiLink: "https://en.wikipedia.org/wiki/Colombo_Security_Conclave",
-                        context: "India's NSA participated in the 7th Colombo Security Conclave (CSC) in Mauritius, emphasizing a unified approach to maritime security, counter-terrorism, and cyber threats in the Indian Ocean Region (IOR).",
+                        topic: "Parliamentary Functioning",
+                        originalLink: "https://www.thehindu.com/news/national/parliament-winter-session-lok-sabha-rajya-sabha-day-3-highlights-december-3-2025/article70351973.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Parliament_of_India",
+                        context: "The Winter Session faces repeated disruptions as the Opposition demands a debate on the 'Special Intensive Revision' (SIR) of electoral rolls and the Adani indictment, while the government pushes its legislative agenda.",
                         keyPoints: [
-                            "<strong>SAGAR Doctrine:</strong> The CSC operationalizes India's vision of 'Security and Growth for All in the Region', countering external (Chinese) influence.",
-                            "<strong>Non-Traditional Threats:</strong> Focus is shifting from military pacts to tackling drug trafficking, marine pollution, and disaster response.",
-                            "<strong>Institutionalization:</strong> The conclave is moving towards a permanent secretariat, signaling India's commitment to being the 'Net Security Provider'."
+                            "<strong>Legislative Business:</strong> Despite disruptions, the Lok Sabha debated the Central Excise (Amendment) Bill, which impacts state revenues.",
+                            "<strong>Accountability Tool:</strong> The Opposition uses disruption as a strategy to force debates on sensitive topics like national security and electoral integrity.",
+                            "<strong>Federal Friction:</strong> Debates on bills like the Water (Prevention and Control of Pollution) Amendment highlighted concerns over the devolution of powers to states."
                         ],
-                        wayForward: ["Expand membership to include Seychelles and other island nations.", "Joint capacity building for hydrography and surveillance."],
-                        fodder: { group: "Colombo Security Conclave", policy: "Neighborhood First" },
-                        question: "The Colombo Security Conclave (CSC) is emerging as a key pillar of India's maritime strategy. Discuss its significance in the context of the changing geopolitics of the Indian Ocean. (10 Marks, 150 Words)",
+                        wayForward: ["Empower the Ethics Committee to handle disruptions constructively.", "allocate specific days for Opposition-led agenda setting."],
+                        fodder: { term: "Parliamentary Deadlock", concept: "Deliberative Democracy" },
+                        question: "Frequent disruptions in Parliament undermine its role as the highest forum of deliberation. Discuss the reasons for the decline in parliamentary productivity and suggest reforms. (15 Marks, 250 Words)",
                         answer: `
-                            <p><strong>Introduction:</strong> The Colombo Security Conclave (CSC), comprising India, Sri Lanka, Maldives, and Mauritius, represents a minilateral approach to regional security, distinct from larger groupings like IORA.</p>
+                            <p><strong>Introduction:</strong> Parliament is the temple of democracy, designed for 'Deliberation, Discussion, and Decision'. However, the 17th and current Lok Sabha have seen record disruptions, reducing the House to a site of protest rather than policy-making.</p>
                             
-                            <p><strong>Body: Significance</strong></p>
+                            <p><strong>Body: Reasons for Decline</strong></p>
                             <ul>
-                                <li><strong>Strategic Buffer:</strong> It creates a security architecture involving key littoral states, essential for India to monitor the sea lines of communication (SLOCs) and counter China's 'String of Pearls'.</li>
-                                <li><strong>First Responder Role:</strong> By coordinating on HADR (Humanitarian Assistance and Disaster Relief) and pollution response, India cements its role as the 'Net Security Provider'.</li>
-                                <li><strong>Flexibility:</strong> As a smaller grouping, it allows for faster decision-making on sensitive issues like intelligence sharing compared to larger, slower bureaucratic bodies.</li>
+                                <li><strong>Lack of Opposition Space:</strong> When the government refuses to debate contentious issues (like Adani or Manipur), the Opposition feels cornered and resorts to disruption as a 'tactic of last resort' to register protest.</li>
+                                <li><strong>Guillotine of Bills:</strong> Important bills are often passed without discussion amidst din. This bypasses the scrutiny of Standing Committees, leading to flawed laws.</li>
+                                <li><strong>Partisan Speaker:</strong> Allegations of bias in the conduct of the House erode trust. The lack of a specific day for 'Opposition Business' (as in the UK Parliament) exacerbates the friction.</li>
                             </ul>
 
-                            <p><strong>Conclusion:</strong> While the CSC strengthens India's maritime periphery, its success depends on managing the political volatility in member nations like the Maldives to ensure continuity.</p>
+                            <p><strong>Conclusion:</strong> To restore the sanctity of Parliament, the 'NCRWC' recommendation to fix minimum sitting days (100 days/year) should be implemented. A 'Shadow Cabinet' system could also institutionalize constructive opposition.</p>
                         `,
-                        deepDive: `<p>The CSC began in 2011 as a trilateral maritime cooperation mechanism between India, Sri Lanka, and the Maldives. It was revived and rebranded in 2020 amidst growing Chinese naval presence in the Indian Ocean. Mauritius joined as a full member in 2022, with Bangladesh and Seychelles as observers. The grouping reflects India's shift from 'non-alignment' to 'multi-alignment', creating specific security umbrellas with like-minded neighbors to secure its maritime backyard.</p>`
+                        deepDive: `<p>The Indian Parliament was envisioned as the 'Grand Inquest of the Nation'. In the early decades (1950s-70s), prolonged debates and high committee referrals were the norm. However, the anti-defection law (10th Schedule), while curbing horse-trading, has arguably stifled individual dissent and debate within parties. The trend of passing bills via 'voice vote' amidst din, without discussion, challenges the deliberative democracy model, reducing Parliament to a mere rubber stamp for the executive's legislative agenda.</p>`
                     },
                     {
-                        title: "Rights of Persons with Disabilities: The Implementation Gap",
-                        source: "The Indian Express",
-                        paper: "GS Paper 2",
-                        topic: "Social Justice",
-                        originalLink: "https://indianexpress.com/article/opinion/columns/international-day-of-persons-with-disabilities-rpwd-act-implementation-9099001/",
-                        wikiLink: "https://en.wikipedia.org/wiki/Rights_of_Persons_with_Disabilities_Act,_2016",
-                        context: "On International Day of Persons with Disabilities (Dec 3), reports highlight that despite the progressive RPwD Act 2016, actual entitlements like job quotas and accessible infrastructure remain unfulfilled.",
+                        title: "The Leprosy Judgment: Ending Statutory Discrimination",
+                        source: "The Hindu Editorial",
+                        paper: "GS Paper 2 / GS Paper 4",
+                        topic: "Social Justice & Rights",
+                        originalLink: "https://www.thehindu.com/opinion/editorial/taking-the-leap-on-leprosy-in-india-and-discriminatioin/article70353527.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Leprosy_stigma",
+                        context: "The Supreme Court has directed the Centre and States to remove discriminatory provisions against persons with leprosy from various statutes, terming them archaic and unconstitutional.",
                         keyPoints: [
-                            "<strong>Rights vs. Reality:</strong> The Act expanded disability categories from 7 to 21, but reservation benefits (4%) are often denied to 'invisible disabilities' like blood disorders.",
-                            "<strong>Accessibility Audit:</strong> The 'Accessible India Campaign' has missed multiple deadlines; public transport and digital infrastructure remain largely inaccessible.",
-                            "<strong>Data Deficit:</strong> Lack of reliable data on the disabled population (Census 2011 is outdated) hampers targeted policy intervention."
+                            "<strong>Institutional Discrimination:</strong> The NHRC found that 97 central and state laws still contain provisions barring leprosy patients from public office or employment.",
+                            "<strong>Medical Reality:</strong> Leprosy is now fully curable and non-infectious with Multi-Drug Therapy (MDT), making these laws scientifically baseless.",
+                            "<strong>Rights Violation:</strong> Such laws violate Article 14 (Equality) and Article 21 (Dignity) by perpetuating stigma against a vulnerable group."
                         ],
-                        wayForward: ["Mandate 'Universal Design' in all public procurement.", "Special recruitment drives to fill the backlog of reserved vacancies."],
-                        fodder: { act: "RPwD Act 2016", campaign: "Accessible India (Sugamya Bharat)" },
-                        question: "The Rights of Persons with Disabilities Act, 2016, was termed a 'game changer'. Evaluate its implementation status and the persistent barriers to inclusion in India. (15 Marks, 250 Words)",
+                        wayForward: ["Repeal all discriminatory laws immediately.", "Launch mass awareness campaigns to de-stigmatize the disease."],
+                        fodder: { case: "Dhirendra Pandua vs State of Odisha", concept: "Socio-Medical Model of Disability" },
+                        question: "Despite medical advancements, statutory discrimination against persons with leprosy persists in India. Discuss the legal and ethical imperatives for repealing such archaic laws. (10 Marks, 150 Words)",
                         answer: `
-                            <p><strong>Introduction:</strong> The RPwD Act 2016 marked a paradigm shift from a 'welfare-based' approach to a 'rights-based' approach, aligning India with the UNCRPD. However, the gap between the statute and the street remains wide.</p>
+                            <p><strong>Introduction:</strong> Leprosy is one of the oldest diseases known to mankind, but the stigma associated with it is a 'social disease' that persists. The Supreme Court's recent directive to purge discriminatory laws is a victory for the dignity of millions.</p>
                             
-                            <p><strong>Body: Implementation Gaps</strong></p>
+                            <p><strong>Body: Legal & Ethical Imperatives</strong></p>
                             <ul>
-                                <li><strong>Infrastructural Barrier:</strong> Despite the Accessible India Campaign launched in 2015, less than 50% of government buildings are fully accessible. Public transport remains a nightmare for wheelchair users.</li>
-                                <li><strong>Employment Quota:</strong> The 4% reservation is often circumvented by declaring posts 'unsuitable' for disabled candidates. Backlog vacancies in government jobs remain high.</li>
-                                <li><strong>Certification Hurdles:</strong> The UDID (Unique Disability ID) project faces bureaucratic delays, forcing PwDs to undergo repeated medical tests for entitlements.</li>
+                                <li><strong>Scientific Obsolescence:</strong> Discriminatory laws (like barring leprosy patients from contesting elections) are based on the archaic belief that leprosy is incurable and highly contagious. Modern Multi-Drug Therapy (MDT) renders it non-infectious within days.</li>
+                                <li><strong>Constitutional Violation:</strong> These laws violate the <strong>Right to Equality (Article 14)</strong> and <strong>Right to Dignity (Article 21)</strong>. They create a class of 'second-class citizens' based on a medical condition.</li>
+                                <li><strong>Global Obligation:</strong> As a signatory to the UN Resolution on Elimination of Discrimination against Persons with Leprosy (2010), India has a moral duty to end statutory segregation.</li>
                             </ul>
 
-                            <p><strong>Conclusion:</strong> True inclusion requires moving beyond 'compliance' to 'empathy'. Strengthening the State Commissioners for Persons with Disabilities to penalize non-compliance is crucial for the Act's success.</p>
+                            <p><strong>Conclusion:</strong> The repeal of the 'Leapers Act, 1898' was a start, but 97 other laws remain. A 'Rights-based approach', integrating leprosy-affected persons into the mainstream via the RPwD Act 2016 framework, is the ethical path forward.</p>
                         `,
-                        deepDive: `<p>India's disability legislation began with the PwD Act of 1995, which was criticized for its medical model of disability (viewing it as a defect to be fixed). India ratified the UN Convention on the Rights of Persons with Disabilities (UNCRPD) in 2007, necessitating a new law. The 2016 Act replaced the 1995 law, recognizing the 'social model' of disability—that barriers are created by society, not the impairment itself. It expanded the scope to include conditions like acid attack victims and learning disabilities.</p>`
-                    },
-                    {
-                        title: "Nuclear Power in Space: Ethical & Safety Concerns",
-                        source: "The Hindu",
-                        paper: "GS Paper 3 / GS Paper 4",
-                        topic: "Space Technology & Ethics",
-                        originalLink: "https://www.thehindu.com/sci-tech/science/nuclear-power-in-space-missions-isro-plans-challenges/article70370123.ece",
-                        wikiLink: "https://en.wikipedia.org/wiki/Nuclear_power_in_space",
-                        context: "As ISRO and global agencies plan long-duration missions (Moon bases, Mars), the reliance on nuclear power (RTGs) is growing, raising ethical questions about radioactive contamination of space.",
-                        keyPoints: [
-                            "<strong>Necessity:</strong> Solar power is insufficient for deep space or lunar nights (14 Earth days). Nuclear Radioisotope Thermoelectric Generators (RTGs) are essential for survival.",
-                            "<strong>The Risk:</strong> Launch failures could disperse radioactive material in Earth's atmosphere. Disposal of reactors on other planets raises 'Planetary Protection' concerns.",
-                            "<strong>Weaponization:</strong> Dual-use nuclear space technology could accelerate the militarization of space, violating the Outer Space Treaty."
-                        ],
-                        wayForward: ["Strengthen the UN 'Principles on the Use of Nuclear Power Sources in Space'.", "Develop fail-safe containment vessels for launch."],
-                        fodder: { treaty: "Outer Space Treaty (1967)", tech: "Radioisotope Thermoelectric Generator (RTG)" },
-                        question: "The use of nuclear power is inevitable for deep space exploration. Discuss the technological advantages and the ethical/environmental risks associated with it. (10 Marks, 150 Words)",
-                        answer: `
-                            <p><strong>Introduction:</strong> Space exploration is transitioning from short-term sorties to permanent habitats. This energy demand surpasses what solar panels can provide, making nuclear energy (fission or radioisotope) a technological necessity.</p>
-                            
-                            <p><strong>Body: The Dilemma</strong></p>
-                            <ul>
-                                <li><strong>Advantages:</strong> RTGs provide reliable power independent of sunlight (crucial for Moon/Mars) and have high energy density. They enable missions like Voyager to last decades.</li>
-                                <li><strong>Risks:</strong> The primary risk is a launch accident spreading plutonium in the atmosphere. Ethically, leaving nuclear waste on pristine celestial bodies violates the principle of 'Planetary Protection'.</li>
-                                <li><strong>Security:</strong> There is a thin line between a nuclear power source and a nuclear weapon platform in orbit, potentially triggering a space arms race.</li>
-                            </ul>
-
-                            <p><strong>Conclusion:</strong> While nuclear propulsion is the future of interplanetary travel, it must be governed by strict, transparent international safety protocols to prevent space from becoming a nuclear graveyard.</p>
-                        `,
-                        deepDive: `<p>The history of nuclear power in space dates back to the Cold War. The US launched the first nuclear satellite (SNAP-10A) in 1965. The USSR launched significantly more, including the RORSAT series powered by fission reactors. A major incident occurred in 1978 when the Soviet satellite Kosmos 954 crashed into Canada, scattering radioactive debris. This led to the development of the UN Principles on the Use of Nuclear Power Sources in Outer Space (1992), focusing on safety and containment.</p>`
+                        deepDive: `<p>Leprosy, or Hansen's Disease, has been stigmatized for millennia due to its visible disfigurement. The colonial Leapers Act of 1898 institutionalized this segregation. Although India achieved 'elimination' status (prevalence <1/10,000) in 2005, it still accounts for over 50% of global new cases. The Law Commission in its 256th Report (2015) explicitly recommended repealing discriminatory laws, arguing they were based on outdated medical understanding and violated human rights.</p>`
                     }
                 ]
             },
@@ -945,6 +952,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
