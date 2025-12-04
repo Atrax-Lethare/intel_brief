@@ -340,7 +340,7 @@
                         <p style="font-size:small; color:grey">
                                 <i>
                                         Sometimes the link might not work due to continuously changing news URL's. <br>
-                                        If that is the case, click on this search button. You will be redirected to a similar news page. 👍
+                                        If that is the case, click on this search button. You will be redirected to a a page where you can choose a relevant news page. 👍
                                 </i>
                         </p>
                     </div>`;
@@ -389,6 +389,7 @@
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalDirect(); });
 
         });
+
 
 
 
