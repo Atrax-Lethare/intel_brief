@@ -288,6 +288,9 @@
 
             data.articles.forEach((article, index) => {
                 const safeTitle = article.title.replace(/'/g, "\\'");
+                // Create a Google Search URL for the title
+                const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(article.title + " news")}`;
+
                 const articleHTML = `
                     <div class="article-card">
                         <div class="meta-row">
@@ -305,32 +308,48 @@
                             <div class="info-box box-amber"><span class="box-label">Mains Fodder</span><div>${Object.entries(article.fodder).map(([key, val]) => `<div class="key-val-row"><span class="key-label">${key}:</span><span>${val}</span></div>`).join('')}</div></div>
                         </div>
                         <div class="question-box">
-                                <span class="content-label" style="color:var(--accent-blue);">Practice Question</span><p class="question-text">"${article.question}"</p>
-                                <p style="font-size:small; color:grey"><i>This model answer is just a suggestion of how to write. WE PROMOTE WRITING THE ANSWERS ON YOUR OWN SO THAT YOU GRADUALLY GAIN PERFECTION IN EXPRESSING YOUR THOUGHTS ON PAPER, which is certainly necessary for the UPSC Examinations.</i></p>
-                                <!-- MODEL ANSWER BUTTON -->
-                                <button class="btn-answer" onclick="toggleAnswer(this)">
-                                        <span>Show Model Answer</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transition: transform 0.2s"><path d="m6 9 6 6 6-6"/></svg>
-                                </button>
-                                    
-                                <!-- HIDDEN ANSWER CONTAINER -->
-                                <div class="model-answer-container">
-                                        ${article.answer}
-                                </div>        
-
+                            <span class="content-label" style="color:var(--accent-blue);">Practice Question</span>
+                            <p class="question-text">"${article.question}"</p>
+                            <p>----------</p>
+                            <p style="font-size:small; color:grey"><i>This model answer is just a suggestion of how to write. WE PROMOTE WRITING THE ANSWERS ON YOUR OWN SO THAT YOU GRADUALLY GAIN PERFECTION IN EXPRESSING YOUR THOUGHTS ON PAPER, which is certainly necessary for the UPSC Examinations.</i></p>
+                            
+                            <!-- MODEL ANSWER BUTTON -->
+                            <button class="btn-answer" onclick="toggleAnswer(this)">
+                                <span>Show Model Answer</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transition: transform 0.2s"><path d="m6 9 6 6 6-6"/></svg>
+                            </button>
+                            <div class="model-answer-container">
+                                ${article.answer}
+                            </div>
                         </div>
                         <div class="card-actions">
                             <button class="btn-deep-dive" onclick="openDeepDive('${safeTitle}', articlesDB['${dataKey}'].articles[${index}].deepDive)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> Read Deep Dive
                             </button>
-                            <a href="${article.wikiLink}" target="_blank" class="btn-wiki" title="Refer to this Wikipedia page to read about several related concepts.">
+                            <a href="${article.wikiLink}" target="_blank" class="btn-wiki" title="Refer to this Wikipedia page to read about all the related concepts.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> Wiki
                             </a>
-                            ${article.originalLink ? `<a href="${article.originalLink}" target="_blank" class="btn-outline">Original Source &nearr;</a>` : ''}
+                            <div style="display:flex; gap:8px;">
+                                ${article.originalLink ? `<a href="${article.originalLink}" target="_blank" class="btn-outline">Original Source &nearr;</a>` : ''}
+                                <a href="${searchUrl}" target="_blank" class="btn-outline" title="Search for this news if link is broken" style="padding: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                </a>
+                            </div>
                         </div>
+                        <p>----------</p>
+                        <p style="font-size:small; color:grey">
+                                <i>
+                                        Sometimes the link might not work due to continuously changing news URL's. <br>
+                                        If that is the case, click on this search button. You will be redirected to a similar news page. 👍
+                                </i>
+                        </p>
                     </div>`;
                 container.innerHTML += articleHTML;
             });
+            document.getElementById('content-scroll').scrollTop = 0;
+            if(window.innerWidth <= 1024 && document.body.classList.contains('mobile-sidebar-open')) toggleSidebar();
+            setTimeout(() => restoreHighlights(dataKey), 100);
+        }
             document.getElementById('content-scroll').scrollTop = 0;
             if(window.innerWidth <= 1024 && document.body.classList.contains('mobile-sidebar-open')) {
                 toggleSidebar();
@@ -371,6 +390,7 @@
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalDirect(); });
 
         });
+
 
 
 
