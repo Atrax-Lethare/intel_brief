@@ -310,8 +310,6 @@
                         <div class="question-box">
                             <span class="content-label" style="color:var(--accent-blue);">Practice Question</span>
                             <p class="question-text">"${article.question}"</p>
-                            <p style="font-size:small; color:grey">----------</p>
-                            <p style="font-size:small; color:grey"><i>This model answer is just a suggestion of how to write. WE PROMOTE WRITING THE ANSWERS ON YOUR OWN SO THAT YOU GRADUALLY GAIN PERFECTION IN EXPRESSING YOUR THOUGHTS ON PAPER, which is certainly necessary for the UPSC Examinations.</i></p>
                             
                             <!-- MODEL ANSWER BUTTON -->
                             <button class="btn-answer" onclick="toggleAnswer(this)">
@@ -342,13 +340,7 @@
                                     </button>
                             </div>
                         </div>
-                        <p style="font-size:small; color:grey">----------</p>
-                        <p style="font-size:small; color:grey">
-                                <i>
-                                        Sometimes the original source link might not work due to continuously changing news URL's. <br>
-                                        If that is the case, click on the search button. You will be redirected to a page where you can choose a relevant news page to read further. 👍
-                                </i>
-                        </p>
+                        
                     </div>`;
                 container.innerHTML += articleHTML;
             });
@@ -449,6 +441,7 @@
             @keyframes fadeOut { to { opacity: 0; } }
         `;
         document.head.appendChild(styleSheet);
+
 
 
 
