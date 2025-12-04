@@ -81,6 +81,14 @@
                             ${data.stat.desc}
                         </div>
                     </div>
+
+                    <p style="font-size:small; color:grey; text-align:center">----------</p>
+                        <p style="font-size:small; color:grey; text-align:center">
+                                <i>
+                                        Sometimes the original source link might not work due to continuously changing news URL's. <br>
+                                        If that is the case, click on this search button. You will be redirected to a page where you can select a relevant news page to read further. 👍
+                                </i>
+                        </p>
                 </div>
             `;
             container.innerHTML = html;
@@ -263,3 +271,4 @@
             });
 
         });
+
