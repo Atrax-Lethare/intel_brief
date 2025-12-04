@@ -17,6 +17,7 @@
         }
 
         // 2. Render Bulletin Logic
+        // Updated loadCategory Function
         function loadCategory(cat) {
             currentCategory = cat;
             const data = newsDB[cat];
@@ -25,10 +26,13 @@
             document.getElementById('headerCategory').textContent = cat;
             document.getElementById('displayHeadline').textContent = `${cat} Briefing`;
             document.getElementById('displayDate').textContent = data.date;
-            renderSidebar(); // Refresh active state
+            renderSidebar();
 
             const container = document.getElementById('bulletinContainer');
             
+            // Generate Search URL for Lead Story
+            const leadSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(data.lead.headline + " news")}`;
+
             const html = `
                 <div class="bulletin-card">
                     <!-- Hero Section -->
@@ -36,23 +40,35 @@
                         <span class="section-label" style="color:var(--accent-blue);">Top Story</span>
                         <h2>${data.lead.headline}</h2>
                         <p>${data.lead.summary}</p>
-                        <a href="${data.lead.link}" target="_blank" class="source-link-btn">
-                            Read Full Story &nearr;
-                        </a>
+                        <div style="display:flex; gap:8px; align-items:center;">
+                            <a href="${data.lead.link}" target="_blank" class="source-link-btn">
+                                Read Full Story &nearr;
+                            </a>
+                            <a href="${leadSearchUrl}" target="_blank" class="bullet-link-icon" title="Search this story" style="padding: 8px; background:#f1f5f9; border-radius:50%;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Round Up -->
                     <div class="roundup-section">
                         <span class="section-label">The Round Up</span>
-                        ${data.bullets.map(b => `
+                        ${data.bullets.map(b => {
+                            const bulletSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(b.text + " news")}`;
+                            return `
                             <div class="bullet-item">
                                 <span class="bullet-tag">${b.tag}</span>
                                 <span class="bullet-text">${b.text}</span>
-                                <a href="${b.link}" target="_blank" class="bullet-link-icon" title="View Source">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                                </a>
-                            </div>
-                        `).join('')}
+                                <div style="display:flex; gap:4px;">
+                                    <a href="${b.link}" target="_blank" class="bullet-link-icon" title="View Source">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                    </a>
+                                    <a href="${bulletSearchUrl}" target="_blank" class="bullet-link-icon" title="Search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                    </a>
+                                </div>
+                            </div>`;
+                        }).join('')}
                     </div>
 
                     <!-- The Number -->
@@ -69,10 +85,7 @@
             `;
             container.innerHTML = html;
             
-            // Restore highlights for this category
             setTimeout(restoreHighlights, 100);
-            
-            // Scroll top & close sidebar on mobile
             document.getElementById('content-scroll').scrollTop = 0;
             if(window.innerWidth <= 1024) toggleSidebar();
         }
@@ -248,4 +261,5 @@
             window.addEventListener('resize', () => {
                 if (!window.innerWidth <= 1024) document.body.classList.remove('mobile-sidebar-open');
             });
+
         });
