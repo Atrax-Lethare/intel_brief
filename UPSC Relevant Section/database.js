@@ -1,4 +1,4 @@
-        // --- DATA SECTION ---
+        // --- DATA SECTION  ---
 const articlesDB = {
             '2025-12-05': {
                 dateLabel: 'December 5, 2025',
@@ -1097,6 +1097,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
