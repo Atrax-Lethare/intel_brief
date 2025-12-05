@@ -333,7 +333,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                                 </a>
                                 <!-- NEW SAVE BUTTON -->
-                                    <button class="btn-save ${saveBtnState}" onclick="toggleSave(this, '${safeTitle}', '${article.originalLink || article.link}', '${article.topic || article.lead?.headline}')" title="Save for Later">
+                                    <button class="btn-save ${saveBtnState}" onclick="toggleSave(this, '${safeTitle}', '${article.link}', '${article.topic}', '${article.context.replace(/'/g, "\\'")}')">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
                                         </svg>
@@ -388,32 +388,32 @@
 
         });
 
-        function toggleSave(btn, title, link, topic) {
-            // 1. Get existing saved items
-            let savedItems = JSON.parse(localStorage.getItem('savedArticles') || '[]');
+        function toggleSave(btn, title, link, category, context) {
+            // 1. Get existing library
+            let library = JSON.parse(localStorage.getItem('mindMapData') || '[]');
             
-            // 2. Check if already saved
-            const existingIndex = savedItems.findIndex(item => item.title === title);
+            // 2. Check if article exists
+            const existingIndex = library.findIndex(item => item.title === title);
             
             if (existingIndex > -1) {
-                // REMOVE: If found, remove it
-                savedItems.splice(existingIndex, 1);
+                // Remove (Toggle Off)
+                library.splice(existingIndex, 1);
                 btn.classList.remove('active');
-                showToast("Article removed from Library");
+                // Optional: showToast("Removed from Revision Map");
             } else {
-                // ADD: If not found, add it
-                savedItems.push({
+                // Add (Toggle On)
+                library.push({
                     title: title,
                     link: link,
-                    topic: topic,
-                    date: new Date().toLocaleDateString()
+                    category: category || "General", // Groups the bubbles
+                    desc: context || "No summary available." // Shows in side panel
                 });
                 btn.classList.add('active');
-                showToast("Article saved to Dashboard");
+                // Optional: showToast("Added to Weekly Revision Map");
             }
             
-            // 3. Save back to storage
-            localStorage.setItem('savedArticles', JSON.stringify(savedItems));
+            // 3. Save to Local Storage
+            localStorage.setItem('mindMapData', JSON.stringify(library));
         }
         
         // Check if an article is saved (to set initial button state)
@@ -441,7 +441,6 @@
             @keyframes fadeOut { to { opacity: 0; } }
         `;
         document.head.appendChild(styleSheet);
-
 
 
 
