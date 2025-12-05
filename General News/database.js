@@ -1,4 +1,4 @@
-        // --- DATA SECTION: DAILY BULLETINS ---
+        // --- DATA SECTION: DAILY BULLETINS  ---
         const newsDB = {
             'Economics': {
                 date: 'December 5, 2025',
@@ -211,6 +211,7 @@
                 stat: { label: "Trade Goal", value: "$100 Bn", desc: "Bilateral trade target set by India and Russia for 2030 during Putin's visit." }
             }
         };
+
 
 
 
